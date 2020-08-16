@@ -24,10 +24,6 @@ export class AppComponent implements OnInit {
       console.log(data);
       this.allWords = data;
       this.goToModule(0)
-      // this.currentModule = this.allWords[this.currentModuleIndex]['Name'];
-      // this.currentWords = this.allWords[this.currentModuleIndex]['Words'];
-      // this.totalWords = this.currentWords.length;
-      // this.goToWord(this.currentWordIndex);
     })
   }
 
@@ -38,14 +34,17 @@ export class AppComponent implements OnInit {
   isCompleted: boolean = false;
 
   goNextWord(value) {
-    console.log("goNextWord = ", value);
+    // console.log("goNextWord = ", value);
     this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer'] = value;
-    console.log("this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']=",
-      this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']);
+    // console.log("this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']=",
+    //   this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']);
+    console.log('this.currentWordIndex = ', this.currentWordIndex);
     this.currentWordIndex += 1;
     if (this.currentWordIndex >= this.currentWords.length) {
       this.currentWordIndex = this.currentWords.length - 1;
     }
+    console.log('this.currentWordIndex = ', this.currentWordIndex);
+
     this.goToWord(this.currentWordIndex);
   }
 
@@ -78,17 +77,17 @@ export class AppComponent implements OnInit {
   }
   checkCompleted(): boolean {
     this.currentWords.forEach(word => {
-      // console.log("checkCompleted.word['answer'] = ["+ (word['answer'].toString().length+"]"));
-      // if ((typeof word['answer']) === undefined) {
-      //   return false;
-      // }
-      // if ('string' !== typeof word['answer']) {
-      //   return false;
-      // }
+      console.log("typeof word['answer'] === undefined ", typeof word['answer'] === 'undefined')
+      console.log("typeof word['answer'] === ", word['answer'])
+
+      if (typeof word['answer'] === 'undefined') {
+        return false;
+      }
+
       if (word['answer'].toString().length < 1) {
         return false;
       }
-      if (word['answer'] === ""){
+      if (word['answer'] === "") {
         return false;
       }
     });

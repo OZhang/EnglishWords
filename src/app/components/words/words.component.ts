@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, Output, EventEmitter } from '@angular/core';
+import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 
 @Component({
@@ -7,6 +7,7 @@ import { FormBuilder, FormGroup, Validators } from '@angular/forms';
   styleUrls: ['./words.component.scss']
 })
 export class WordsComponent implements OnInit {
+  @ViewChild('myInput', { static: false }) input: ElementRef;
 
   @Input() English: string;
   @Input() PhoneticSymbols: string;
@@ -24,29 +25,36 @@ export class WordsComponent implements OnInit {
     });
   }
 
-  // onSubmit() {
-  //   console.log(this.wordFrom.get('answer').value);
-  // }
-  changed(value){
+  changed(value) {
     this.Answer = value;
   }
 
   previousWord() {
     let value = this.Answer;
     this.Answer = '';
-    // let value = this.wordFrom.get('answer').value;
-    // this.wordFrom.get('answer').setValue('');
     console.log("nextWord = ", value)
-    this.goPrevious.emit(value);
+    this.goPrevious.emit(value.trim());
+    this.input.nativeElement.focus();
   }
 
   nextWord() {
     let value = this.Answer;
     this.Answer = '';
-    // let value = this.wordFrom.get('answer').value;
-    // this.wordFrom.get('answer').setValue('');
     console.log("nextWord = ", value)
-    this.goNext.emit(value);
-    
+    this.goNext.emit(value.trim());
+    this.input.nativeElement.focus();
+  }
+
+  keypress(event: KeyboardEvent){
+    console.log('keypress = ', event.code === 'Enter');
+    if (event.code === 'Enter'){
+      this.nextWord();
+    }
+    // const pattern = /[0-9]/;
+    // const inputChar = String.fromCharCode(event).charCode);
+    // if (!pattern.test(inputChar)) {    
+    //     // invalid character, prevent input
+    //     event.preventDefault();
+    // }
   }
 }
