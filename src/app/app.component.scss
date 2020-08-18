@@ -6,3 +6,11 @@
     margin-left: 30px;
     margin-top: 50px
 }
+
+.disabled
+{
+  pointer-events: none;
+  /* for "disabled" effect */
+  opacity: 0.5;
+  background: #CCC;
+}

@@ -32,7 +32,7 @@ export class AppComponent implements OnInit {
   chinese: string = "苹果";
   answer: string = "";
   isCompleted: boolean = false;
-
+  isDisabled = false;
   goNextWord(value) {
     // console.log("goNextWord = ", value);
     this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer'] = value;
@@ -97,6 +97,7 @@ export class AppComponent implements OnInit {
 
   nextModule() {
     this.isCompleted = false;
+    this.isDisabled = false;
     this.currentModuleIndex += 1;
     console.log("this.currentModuleIndex = ", this.currentModuleIndex)
     if (this.currentModuleIndex === this.allWords.length) {
@@ -107,6 +108,7 @@ export class AppComponent implements OnInit {
 
   previousModule() {
     this.isCompleted = false;
+    this.isDisabled = false;
     this.currentModuleIndex -= 1;
     if (this.currentModuleIndex < 0) {
       this.currentModuleIndex = 0;
@@ -127,6 +129,7 @@ export class AppComponent implements OnInit {
   }
 
   completed() {
+    this.isDisabled = true;
     this.wrongWords = [];
     let correct = 0;
     let wrong = 0;
