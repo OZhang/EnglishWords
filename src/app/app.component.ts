@@ -33,27 +33,8 @@ export class AppComponent implements OnInit {
   answer: string = "";
   isCompleted: boolean = false;
   isDisabled = false;
-  goNextWord(value) {
-    // console.log("goNextWord = ", value);
-    this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer'] = value;
-    // console.log("this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']=",
-    //   this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']);
-    console.log('this.currentWordIndex = ', this.currentWordIndex);
-    this.currentWordIndex += 1;
-    if (this.currentWordIndex >= this.currentWords.length) {
-      this.currentWordIndex = this.currentWords.length - 1;
-    }
-    console.log('this.currentWordIndex = ', this.currentWordIndex);
 
-    this.goToWord(this.currentWordIndex);
-  }
-
-  goPreviousWord(value) {
-    console.log("goNextWord = ", value);
-    this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer'] = value;
-    this.currentWord['answer'] = value;
-    console.log("this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']=",
-      this.allWords[this.currentModuleIndex]['Words'][this.currentWordIndex]['answer']);
+  previousWord() {
     this.currentWordIndex -= 1;
     if (this.currentWordIndex < 0) {
       this.currentWordIndex = 0;
@@ -61,34 +42,35 @@ export class AppComponent implements OnInit {
     this.goToWord(this.currentWordIndex);
   }
 
+  nextWord() {
+    this.currentWordIndex += 1;
+    if (this.currentWordIndex >= this.currentWords.length) {
+      this.currentWordIndex = this.currentWords.length - 1;
+    }
+    this.goToWord(this.currentWordIndex);
+  }
+
+  answerChanged(value) {
+    this.currentWord.answer = value.toString().trim();
+    this.isCompleted = this.checkCompleted();
+  }
+
   goToWord(index) {
     this.currentWord = this.currentWords[index];
-    console.log("this.currentWord = ", this.currentWord)
     this.english = this.currentWord['English'];
     this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
     this.chinese = this.currentWord['Chinese'];
-    if (this.currentWord['answer'] == undefined) {
-      this.currentWord['answer'] = '';
-    }
     this.answer = this.currentWord['answer'];
-
-    this.isCompleted = this.checkCompleted();
-    console.log("this.isCompleted = ", this.isCompleted)
   }
   checkCompleted(): boolean {
     var count = 0;
     this.currentWords.forEach(word => {
-
-      if (word['answer'].toString().length > 0) {
+      if (word.answer === undefined) {
+      }
+      else if (word.answer.length > 0) {
         count++;
       }
-
-      console.log("word['answer'].toString().length = ", word['answer'].toString().length);
-      console.log("count = ", count)
-
     });
-    console.log("count = ", count)
-    console.log("totalWords = ", this.totalWords)
 
     return (count === this.totalWords)
   }
@@ -119,8 +101,14 @@ export class AppComponent implements OnInit {
     this.correctCount = 0
     this.wrongCount = 0;
     this.currentWordIndex = 0;
-    console.log('go to module = ', index)
     this.currentModule = this.allWords[index]['Name'];
+
+    this.allWords[index]['Words'].forEach(word => {
+      if (word.answer === undefined) {
+        word.answer = "";
+      }
+    });
+
     this.currentWords = this.allWords[index]['Words'];
     this.totalWords = this.currentWords.length;
     this.goToWord(this.currentWordIndex);
@@ -132,7 +120,6 @@ export class AppComponent implements OnInit {
     let correct = 0;
     let wrong = 0;
     this.currentWords.forEach(word => {
-      console.log("word['answer'] =", word['answer'])
       if (word['answer'] === word['English']) {
         correct += 1;
       }

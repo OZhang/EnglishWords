@@ -1,11 +1,6 @@
-<form id="wordform" >
-    <!-- [formGroup]="wordFrom" -->
+<div>
     <h2>{{ Chinese }}</h2>
     <mat-form-field>
-        <input matInput #myInput [value]="Answer" autocomplete="off" (change)="changed($event.target.value)" autofocus>
-        <!-- (keypress)="keypress($event)" -->
+        <input matInput #myInput [(ngModel)]="answerInput" autocomplete="off" (change)="changed($event.target.value)" autofocus>
     </mat-form-field>
-    <br>
-    <button mat-button (click)="previousWord()">上一个</button>
-    <button mat-button (click)="nextWord()">下一个</button>
-</form>
+</div>

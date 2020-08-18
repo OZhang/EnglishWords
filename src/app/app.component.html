@@ -6,7 +6,10 @@
     <h3>{{ currentWordIndex + 1 }} / {{ totalWords }}</h3>
     <div [ngClass]="{'disabled': isDisabled}">
         <app-words [English]="english" [PhoneticSymbols]="phoneticSymbols" [Chinese]="chinese" [Answer]="answer"
-            (previous)="goPreviousWord($event)" (next)="goNextWord($event)"></app-words>
+            (answerChanged)="answerChanged($event)">
+        </app-words>
+        <button mat-button (click)="previousWord()">上一个</button>
+        <button mat-button (click)="nextWord()">下一个</button>
     </div>
     <button mat-button *ngIf="isCompleted" (click)="completed()">完成</button>
     <button mat-button *ngIf="wrongCount > 0" (click)="reTest()">重做错题</button>
