@@ -76,23 +76,21 @@ export class AppComponent implements OnInit {
     console.log("this.isCompleted = ", this.isCompleted)
   }
   checkCompleted(): boolean {
+    var count = 0;
     this.currentWords.forEach(word => {
-      console.log("typeof word['answer'] === undefined ", typeof word['answer'] === 'undefined')
-      console.log("typeof word['answer'] === ", word['answer'])
-
-      if (typeof word['answer'] === 'undefined') {
-        return false;
+      
+      if (word['answer'].toString().length > 0) {
+        count++;
       }
 
-      if (word['answer'].toString().length < 1) {
-        return false;
-      }
-      if (word['answer'] === "") {
-        return false;
-      }
+      console.log("word['answer'].toString().length = ",word['answer'].toString().length);
+      console.log("count = ", count)
+
     });
+    console.log("count = ", count)
+    console.log("totalWords = ", this.totalWords)
 
-    return true;
+    return (count === this.totalWords)
   }
 
   nextModule() {
