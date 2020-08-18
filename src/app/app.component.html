@@ -10,8 +10,10 @@
     </div>
     <button mat-button *ngIf="isCompleted" (click)="completed()">完成</button>
     <button mat-button *ngIf="wrongCount > 0" (click)="reTest()">重做错题</button>
-    <p>{{ correctCount }}</p>
-    <p>{{ wrongCount }}</p>
+    <br>
+    <span *ngIf="correctCount > 0 || wrongCount > 0">正确：{{ correctCount }}</span>
+    <span *ngIf="correctCount > 0 || wrongCount > 0">错误：{{ wrongCount }}</span>
+    <br>
     <ul *ngFor="let word of wrongWords">
         <li>
             <p>{{ word.Chinese }}</p>

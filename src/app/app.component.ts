@@ -15,8 +15,8 @@ export class AppComponent implements OnInit {
   currentWordIndex = 0;
   currentWord: any;
   totalWords = 0;
-  correctCount = "";
-  wrongCount = "";
+  correctCount = 0;
+  wrongCount = 0;
   wrongWords = [];
   constructor(private getWordsService: GetWordsService) { }
   ngOnInit(): void {
@@ -116,8 +116,8 @@ export class AppComponent implements OnInit {
 
   goToModule(index) {
     this.wrongWords = [];
-    this.correctCount = "";
-    this.wrongCount = "";
+    this.correctCount = 0
+    this.wrongCount = 0;
     this.currentWordIndex = 0;
     console.log('go to module = ', index)
     this.currentModule = this.allWords[index]['Name'];
@@ -142,8 +142,8 @@ export class AppComponent implements OnInit {
       }
     });
 
-    this.correctCount = correct.toString();
-    this.wrongCount = wrong.toString();
+    this.correctCount = correct;
+    this.wrongCount = wrong;
   }
 
   reTest() {
@@ -156,8 +156,8 @@ export class AppComponent implements OnInit {
     });
 
     this.wrongWords = [];
-    this.correctCount = "";
-    this.wrongCount = "";
+    this.correctCount = 0
+    this.wrongCount = 0
     this.currentWordIndex = 0;
     this.totalWords = this.currentWords.length;
     this.goToWord(this.currentWordIndex);
