@@ -2,7 +2,8 @@
     <!-- [formGroup]="wordFrom" -->
     <h2>{{ Chinese }}</h2>
     <mat-form-field>
-        <input matInput #myInput [value]="Answer" autocomplete="off" (change)="changed($event.target.value)" autofocus (keypress)="keypress($event)">
+        <input matInput #myInput [value]="Answer" autocomplete="off" (change)="changed($event.target.value)" autofocus>
+        <!-- (keypress)="keypress($event)" -->
     </mat-form-field>
     <br>
     <button mat-button (click)="previousWord()">上一个</button>

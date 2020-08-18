@@ -9,6 +9,7 @@
             (previous)="goPreviousWord($event)" (next)="goNextWord($event)"></app-words>
     </div>
     <button mat-button *ngIf="isCompleted" (click)="completed()">完成</button>
+    <button mat-button *ngIf="wrongCount > 0" (click)="reTest()">重做错题</button>
     <p>{{ correctCount }}</p>
     <p>{{ wrongCount }}</p>
     <ul *ngFor="let word of wrongWords">

@@ -78,12 +78,12 @@ export class AppComponent implements OnInit {
   checkCompleted(): boolean {
     var count = 0;
     this.currentWords.forEach(word => {
-      
+
       if (word['answer'].toString().length > 0) {
         count++;
       }
 
-      console.log("word['answer'].toString().length = ",word['answer'].toString().length);
+      console.log("word['answer'].toString().length = ", word['answer'].toString().length);
       console.log("count = ", count)
 
     });
@@ -144,5 +144,22 @@ export class AppComponent implements OnInit {
 
     this.correctCount = correct.toString();
     this.wrongCount = wrong.toString();
+  }
+
+  reTest() {
+    this.isCompleted = false;
+    this.isDisabled = false;
+    this.currentWords = this.wrongWords;
+
+    this.currentWords.forEach(word => {
+      word['answer'] = "";
+    });
+
+    this.wrongWords = [];
+    this.correctCount = "";
+    this.wrongCount = "";
+    this.currentWordIndex = 0;
+    this.totalWords = this.currentWords.length;
+    this.goToWord(this.currentWordIndex);
   }
 }
