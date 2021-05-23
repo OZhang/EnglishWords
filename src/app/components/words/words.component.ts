@@ -1,5 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit, OnChanges, SimpleChanges } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { SpeechService } from 'src/app/speech.service';
 
 @Component({
   selector: 'app-words',
@@ -17,7 +18,7 @@ export class WordsComponent implements OnInit, OnChanges {
   answerInput: string = "";
 
   wordFrom: FormGroup;
-  constructor(private formBuilder: FormBuilder) { }
+  constructor(private formBuilder: FormBuilder, private speech: SpeechService) { }
   ngOnChanges(changes: SimpleChanges): void {
     this.answerInput = this.Answer;
   }
@@ -26,10 +27,21 @@ export class WordsComponent implements OnInit, OnChanges {
     this.wordFrom = this.formBuilder.group({
       answer: ['', [Validators.required]]
     });
+
+  }
+
+  ngAfterViewInit(){
+    this.speak();
   }
 
   changed(value: String) {
     console.log("changed.value = ",value)
     this.answerChangedEvent.emit(value.trim());
+    this.speak();
+
+  }
+
+  speak(){
+    this.speech.Speak(this.English);
   }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { GetWordsService } from './service/get-words.service';
+import { SpeechService } from 'src/app/speech.service';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +19,7 @@ export class AppComponent implements OnInit {
   correctCount = 0;
   wrongCount = 0;
   wrongWords = [];
-  constructor(private getWordsService: GetWordsService) { }
+  constructor(private getWordsService: GetWordsService, private speech: SpeechService) { }
   ngOnInit(): void {
     this.getWordsService.getJson().subscribe(data => {
       console.log(data);
@@ -27,7 +28,7 @@ export class AppComponent implements OnInit {
     })
   }
 
-  english: string = "apple";
+  english: string = "";
   phoneticSymbols: string = 'ps';
   chinese: string = "苹果";
   answer: string = "";
@@ -61,6 +62,7 @@ export class AppComponent implements OnInit {
     this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
     this.chinese = this.currentWord['Chinese'];
     this.answer = this.currentWord['answer'];
+    this.speech.Speak(this.english);
   }
   checkCompleted(): boolean {
     var count = 0;
