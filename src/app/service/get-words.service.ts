@@ -9,6 +9,6 @@ export class GetWordsService {
   constructor(private http: HttpClient) { }
 
   public getJson(): Observable<any>{
-    return this.http.get("../assets/json/7_1.json");
+    return this.http.get("../assets/json/72external.json");
   }
 }
