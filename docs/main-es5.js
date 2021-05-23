@@ -790,9 +790,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var src_app_speech_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! src/app/speech.service */
-    "./src/app/speech.service.ts");
+    var src_app_service_speech_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/service/speech.service */
+    "./src/app/service/speech.service.ts");
+    /* harmony import */
+
+
+    var _assets_json_72external_json__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(
+    /*! ../assets/json/72external.json */
+    "./src/assets/json/72external.json");
+
+    var _assets_json_72external_json__WEBPACK_IMPORTED_MODULE_4___namespace = /*#__PURE__*/__webpack_require__.t(
+    /*! ../assets/json/72external.json */
+    "./src/assets/json/72external.json", 1);
 
     var AppComponent = /*#__PURE__*/function () {
       function AppComponent(getWordsService, speech) {
@@ -818,14 +828,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       _createClass(AppComponent, [{
         key: "ngOnInit",
         value: function ngOnInit() {
-          var _this = this;
-
-          this.getWordsService.getJson().subscribe(function (data) {
-            console.log(data);
-            _this.allWords = data;
-
-            _this.goToModule(0);
-          });
+          this.allWords = _assets_json_72external_json__WEBPACK_IMPORTED_MODULE_4__;
+          this.goToModule(0); // this.getWordsService.getJson().subscribe(data => {
+          //   console.log(data);
+          //   this.allWords = data;
+          //   this.goToModule(0)
+          // })
         }
       }, {
         key: "previousWord",
@@ -862,7 +870,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.english = this.currentWord['English'];
           this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
           this.chinese = this.currentWord['Chinese'];
-          this.answer = this.currentWord['answer']; //this.speech.Speak(this.english);
+          this.answer = this.currentWord['answer'];
+          this.speech.Speak(this.english);
         }
       }, {
         key: "checkCompleted",
@@ -922,7 +931,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       }, {
         key: "completed",
         value: function completed() {
-          var _this2 = this;
+          var _this = this;
 
           this.isDisabled = true;
           this.wrongWords = [];
@@ -934,7 +943,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
             } else {
               wrong += 1;
 
-              _this2.wrongWords.push(word);
+              _this.wrongWords.push(word);
             }
           });
           this.correctCount = correct;
@@ -965,7 +974,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return [{
         type: _service_get_words_service__WEBPACK_IMPORTED_MODULE_2__["GetWordsService"]
       }, {
-        type: src_app_speech_service__WEBPACK_IMPORTED_MODULE_3__["SpeechService"]
+        type: src_app_service_speech_service__WEBPACK_IMPORTED_MODULE_3__["SpeechService"]
       }];
     };
 
@@ -1152,9 +1161,9 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var src_app_speech_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
-    /*! src/app/speech.service */
-    "./src/app/speech.service.ts");
+    var src_app_service_speech_service__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(
+    /*! src/app/service/speech.service */
+    "./src/app/service/speech.service.ts");
 
     var WordsComponent = /*#__PURE__*/function () {
       function WordsComponent(formBuilder, speech) {
@@ -1192,7 +1201,8 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "speak",
-        value: function speak() {//this.speech.Speak(this.English);
+        value: function speak() {
+          this.speech.Speak(this.English);
         }
       }]);
 
@@ -1203,7 +1213,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       return [{
         type: _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormBuilder"]
       }, {
-        type: src_app_speech_service__WEBPACK_IMPORTED_MODULE_3__["SpeechService"]
+        type: src_app_service_speech_service__WEBPACK_IMPORTED_MODULE_3__["SpeechService"]
       }];
     };
 
@@ -1295,15 +1305,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
   },
 
   /***/
-  "./src/app/speech.service.ts":
-  /*!***********************************!*\
-    !*** ./src/app/speech.service.ts ***!
-    \***********************************/
+  "./src/app/service/speech.service.ts":
+  /*!*******************************************!*\
+    !*** ./src/app/service/speech.service.ts ***!
+    \*******************************************/
 
   /*! exports provided: SpeechService */
 
   /***/
-  function srcAppSpeechServiceTs(module, __webpack_exports__, __webpack_require__) {
+  function srcAppServiceSpeechServiceTs(module, __webpack_exports__, __webpack_require__) {
     "use strict";
 
     __webpack_require__.r(__webpack_exports__);
@@ -1391,6 +1401,20 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     SpeechService = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Injectable"])({
       providedIn: 'root'
     })], SpeechService);
+    /***/
+  },
+
+  /***/
+  "./src/assets/json/72external.json":
+  /*!*****************************************!*\
+    !*** ./src/assets/json/72external.json ***!
+    \*****************************************/
+
+  /*! exports provided: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, default */
+
+  /***/
+  function srcAssetsJson72externalJson(module) {
+    module.exports = JSON.parse("[{\"Name\":\"第38期\",\"Words\":[{\"English\":\"group\",\"PhoneticSymbols\":\"\",\"Chinese\":\"群，团体，组\"},{\"English\":\"invention\",\"PhoneticSymbols\":\"\",\"Chinese\":\"发明物\"},{\"English\":\"end up\",\"PhoneticSymbols\":\"\",\"Chinese\":\"以……告终\"},{\"English\":\"mind\",\"PhoneticSymbols\":\"\",\"Chinese\":\"想法\"},{\"English\":\"give up\",\"PhoneticSymbols\":\"\",\"Chinese\":\"放弃\"},{\"English\":\"blow\",\"PhoneticSymbols\":\"\",\"Chinese\":\"吹\"},{\"English\":\"set up\",\"PhoneticSymbols\":\"\",\"Chinese\":\"创立，设立\"},{\"English\":\"arrive\",\"PhoneticSymbols\":\"\",\"Chinese\":\"到达\"},{\"English\":\"appear\",\"PhoneticSymbols\":\"\",\"Chinese\":\"出现\"},{\"English\":\"center\",\"PhoneticSymbols\":\"\",\"Chinese\":\"中心，中央\"},{\"English\":\"amount\",\"PhoneticSymbols\":\"\",\"Chinese\":\"量；数量\"},{\"English\":\"focus\",\"PhoneticSymbols\":\"\",\"Chinese\":\"集中（精力）\"},{\"English\":\"sickness\",\"PhoneticSymbols\":\"\",\"Chinese\":\"疾病\"},{\"English\":\"fit\",\"PhoneticSymbols\":\"\",\"Chinese\":\"健康的，结实的\"}]},{\"Name\":\"第36-37期\",\"Words\":[{\"English\":\"laugh\",\"PhoneticSymbols\":\"\",\"Chinese\":\"笑\"},{\"English\":\"believe\",\"PhoneticSymbols\":\"\",\"Chinese\":\"相信\"},{\"English\":\"probably\",\"PhoneticSymbols\":\"\",\"Chinese\":\"可能\"},{\"English\":\"shake\",\"PhoneticSymbols\":\"\",\"Chinese\":\"摇晃\"},{\"English\":\"promise\",\"PhoneticSymbols\":\"\",\"Chinese\":\"承诺\"},{\"English\":\"swing\",\"PhoneticSymbols\":\"\",\"Chinese\":\"挥动，摇荡，前后摆动\"},{\"English\":\"space\",\"PhoneticSymbols\":\"\",\"Chinese\":\"空间\"},{\"English\":\"mistake\",\"PhoneticSymbols\":\"\",\"Chinese\":\"错误\"},{\"English\":\"solve\",\"PhoneticSymbols\":\"\",\"Chinese\":\"解决\"},{\"English\":\"decide\",\"PhoneticSymbols\":\"\",\"Chinese\":\"决定\"},{\"English\":\"magic\",\"PhoneticSymbols\":\"\",\"Chinese\":\"有魔力的\"},{\"English\":\"escape\",\"PhoneticSymbols\":\"\",\"Chinese\":\"逃跑\"},{\"English\":\"brave\",\"PhoneticSymbols\":\"\",\"Chinese\":\"勇敢的\"},{\"English\":\"hole\",\"PhoneticSymbols\":\"\",\"Chinese\":\"洞\"}]},{\"Name\":\"第35期\",\"Words\":[{\"English\":\"close\",\"PhoneticSymbols\":\"\",\"Chinese\":\"靠近……的，亲近的\"},{\"English\":\"celebrate\",\"PhoneticSymbols\":\"\",\"Chinese\":\"庆祝\"},{\"English\":\"add\",\"PhoneticSymbols\":\"\",\"Chinese\":\"添加\"},{\"English\":\"comfortable\",\"PhoneticSymbols\":\"\",\"Chinese\":\"舒适的\"},{\"English\":\"luckily\",\"PhoneticSymbols\":\"\",\"Chinese\":\"幸运地\"},{\"English\":\"few\",\"PhoneticSymbols\":\"\",\"Chinese\":\"很少的\"},{\"English\":\"touch\",\"PhoneticSymbols\":\"\",\"Chinese\":\"感动\"},{\"English\":\"expect\",\"PhoneticSymbols\":\"\",\"Chinese\":\"期待，预料\"},{\"English\":\"complain\",\"PhoneticSymbols\":\"\",\"Chinese\":\"抱怨\"},{\"English\":\"push\",\"PhoneticSymbols\":\"\",\"Chinese\":\"推\"},{\"English\":\"pull\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拉\"},{\"English\":\"lie\",\"PhoneticSymbols\":\"\",\"Chinese\":\"躺\"},{\"English\":\"explain\",\"PhoneticSymbols\":\"\",\"Chinese\":\"解释\"},{\"English\":\"improve\",\"PhoneticSymbols\":\"\",\"Chinese\":\"改进\"}]},{\"Name\":\"第34期\",\"Words\":[{\"English\":\"another\",\"PhoneticSymbols\":\"\",\"Chinese\":\"不同的，另外的\"},{\"English\":\"piece\",\"PhoneticSymbols\":\"\",\"Chinese\":\"块；片\"},{\"English\":\"successful\",\"PhoneticSymbols\":\"\",\"Chinese\":\"成功的\"},{\"English\":\"catch\",\"PhoneticSymbols\":\"\",\"Chinese\":\"逮住；赶上\"},{\"English\":\"keep\",\"PhoneticSymbols\":\"\",\"Chinese\":\"保持\"},{\"English\":\"wait\",\"PhoneticSymbols\":\"\",\"Chinese\":\"等待\"},{\"English\":\"build\",\"PhoneticSymbols\":\"\",\"Chinese\":\"建造\"},{\"English\":\"several\",\"PhoneticSymbols\":\"\",\"Chinese\":\"几个的\"},{\"English\":\"role\",\"PhoneticSymbols\":\"\",\"Chinese\":\"角色\"},{\"English\":\"grow\",\"PhoneticSymbols\":\"\",\"Chinese\":\"成长\"},{\"English\":\"at least\",\"PhoneticSymbols\":\"\",\"Chinese\":\"至少\"},{\"English\":\"corner\",\"PhoneticSymbols\":\"\",\"Chinese\":\"角落，区域\"},{\"English\":\"kiss\",\"PhoneticSymbols\":\"\",\"Chinese\":\"亲吻\"},{\"English\":\"train\",\"PhoneticSymbols\":\"\",\"Chinese\":\"训练；培训\"},{\"English\":\"matter\",\"PhoneticSymbols\":\"\",\"Chinese\":\"事情\"},{\"English\":\"curious\",\"PhoneticSymbols\":\"\",\"Chinese\":\"好奇的\"}]},{\"Name\":\"第33期\",\"Words\":[{\"English\":\"break out\",\"PhoneticSymbols\":\"\",\"Chinese\":\"爆发\"},{\"English\":\"bring\",\"PhoneticSymbols\":\"\",\"Chinese\":\"带来；拿来\"},{\"English\":\"natural\",\"PhoneticSymbols\":\"\",\"Chinese\":\"自然的\"},{\"English\":\"finally\",\"PhoneticSymbols\":\"\",\"Chinese\":\"最终地\"},{\"English\":\"difference\",\"PhoneticSymbols\":\"\",\"Chinese\":\"不同，相异\"},{\"English\":\"listen\",\"PhoneticSymbols\":\"\",\"Chinese\":\"听\"},{\"English\":\"throw\",\"PhoneticSymbols\":\"\",\"Chinese\":\"扔\"},{\"English\":\"tooth\",\"PhoneticSymbols\":\"\",\"Chinese\":\"牙齿\"},{\"English\":\"pick\",\"PhoneticSymbols\":\"\",\"Chinese\":\"选择，挑选\"},{\"English\":\"calm\",\"PhoneticSymbols\":\"\",\"Chinese\":\"使平静\"},{\"English\":\"famous\",\"PhoneticSymbols\":\"\",\"Chinese\":\"著名的\"},{\"English\":\"carefully\",\"PhoneticSymbols\":\"\",\"Chinese\":\"认真地\"},{\"English\":\"safe\",\"PhoneticSymbols\":\"\",\"Chinese\":\"安全的\"},{\"English\":\"break\",\"PhoneticSymbols\":\"\",\"Chinese\":\"弄断\"},{\"English\":\"relationship\",\"PhoneticSymbols\":\"\",\"Chinese\":\"关系\"},{\"English\":\"reach\",\"PhoneticSymbols\":\"\",\"Chinese\":\"到达；达到\"}]},{\"Name\":\"第31-32期\",\"Words\":[{\"English\":\"plan\",\"PhoneticSymbols\":\"\",\"Chinese\":\"计划，打算\"},{\"English\":\"touch\",\"PhoneticSymbols\":\"\",\"Chinese\":\"使感动\"},{\"English\":\"cultural\",\"PhoneticSymbols\":\"\",\"Chinese\":\"文化的\"},{\"English\":\"cover\",\"PhoneticSymbols\":\"\",\"Chinese\":\"覆盖\"},{\"English\":\"choose\",\"PhoneticSymbols\":\"\",\"Chinese\":\"选择\"},{\"English\":\"almost\",\"PhoneticSymbols\":\"\",\"Chinese\":\"几乎\"},{\"English\":\"similar\",\"PhoneticSymbols\":\"\",\"Chinese\":\"相似的\"},{\"English\":\"mirror\",\"PhoneticSymbols\":\"\",\"Chinese\":\"镜子\"},{\"English\":\"terrible\",\"PhoneticSymbols\":\"\",\"Chinese\":\"糟糕的\"},{\"English\":\"hang\",\"PhoneticSymbols\":\"\",\"Chinese\":\"垂\"},{\"English\":\"change\",\"PhoneticSymbols\":\"\",\"Chinese\":\"改变\"},{\"English\":\"low\",\"PhoneticSymbols\":\"\",\"Chinese\":\"低低地\"}]},{\"Name\":\"第30期\",\"Words\":[{\"English\":\"try\",\"PhoneticSymbols\":\"\",\"Chinese\":\"尝试\"},{\"English\":\"mix\",\"PhoneticSymbols\":\"\",\"Chinese\":\"混合\"},{\"English\":\"later\",\"PhoneticSymbols\":\"\",\"Chinese\":\"后来，随后\"},{\"English\":\"hope\",\"PhoneticSymbols\":\"\",\"Chinese\":\"希望\"},{\"English\":\"probably\",\"PhoneticSymbols\":\"\",\"Chinese\":\"很可能\"},{\"English\":\"comfortable\",\"PhoneticSymbols\":\"\",\"Chinese\":\"舒适的，自在的\"},{\"English\":\"event\",\"PhoneticSymbols\":\"\",\"Chinese\":\"比赛项目\"},{\"English\":\"free\",\"PhoneticSymbols\":\"\",\"Chinese\":\"免费的 \"},{\"English\":\"win\",\"PhoneticSymbols\":\"\",\"Chinese\":\"赢\"},{\"English\":\"difference\",\"PhoneticSymbols\":\"\",\"Chinese\":\"差别\"},{\"English\":\"full\",\"PhoneticSymbols\":\"\",\"Chinese\":\"完全的\"},{\"English\":\"example\",\"PhoneticSymbols\":\"\",\"Chinese\":\"榜样\"}]},{\"Name\":\"第29期\",\"Words\":[{\"English\":\"competition\",\"PhoneticSymbols\":\"\",\"Chinese\":\"竞争，比赛\"},{\"English\":\"fill\",\"PhoneticSymbols\":\"\",\"Chinese\":\"装满，填满\"},{\"English\":\"view\",\"PhoneticSymbols\":\"\",\"Chinese\":\"风景，视野，见解\"},{\"English\":\"necessary\",\"PhoneticSymbols\":\"\",\"Chinese\":\"有必要的\"},{\"English\":\"agree\",\"PhoneticSymbols\":\"\",\"Chinese\":\"同意\"},{\"English\":\"save\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拯救\"},{\"English\":\"main\",\"PhoneticSymbols\":\"\",\"Chinese\":\"主要的\"},{\"English\":\"honest\",\"PhoneticSymbols\":\"\",\"Chinese\":\"诚实的\"},{\"English\":\"trust\",\"PhoneticSymbols\":\"\",\"Chinese\":\"信任\"},{\"English\":\"escape\",\"PhoneticSymbols\":\"\",\"Chinese\":\"逃跑\"},{\"English\":\"agree\",\"PhoneticSymbols\":\"\",\"Chinese\":\"同意\"},{\"English\":\"realize\",\"PhoneticSymbols\":\"\",\"Chinese\":\"意识到\"}]},{\"Name\":\"第28期\",\"Words\":[{\"English\":\"even\",\"PhoneticSymbols\":\"\",\"Chinese\":\"甚至，还\"},{\"English\":\"invite\",\"PhoneticSymbols\":\"\",\"Chinese\":\"邀请\"},{\"English\":\"die\",\"PhoneticSymbols\":\"\",\"Chinese\":\"死\"},{\"English\":\"lose\",\"PhoneticSymbols\":\"\",\"Chinese\":\"失去\"},{\"English\":\"advice\",\"PhoneticSymbols\":\"\",\"Chinese\":\"建议\"},{\"English\":\"surprised\",\"PhoneticSymbols\":\"\",\"Chinese\":\"感到惊讶的\"},{\"English\":\"common\",\"PhoneticSymbols\":\"\",\"Chinese\":\"普通的\"},{\"English\":\"spend\",\"PhoneticSymbols\":\"\",\"Chinese\":\"花费\"},{\"English\":\"enough\",\"PhoneticSymbols\":\"\",\"Chinese\":\"足够的，充足的\"},{\"English\":\"human\",\"PhoneticSymbols\":\"\",\"Chinese\":\"人类的\"},{\"English\":\"decide\",\"PhoneticSymbols\":\"\",\"Chinese\":\"决定\"},{\"English\":\"rich\",\"PhoneticSymbols\":\"\",\"Chinese\":\"富有的\"},{\"English\":\"guest\",\"PhoneticSymbols\":\"\",\"Chinese\":\"客人\"},{\"English\":\"visit\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拜访\"},{\"English\":\"share\",\"PhoneticSymbols\":\"\",\"Chinese\":\"分享\"},{\"English\":\"taste\",\"PhoneticSymbols\":\"\",\"Chinese\":\"品尝\"}]},{\"Name\":\"第27期\",\"Words\":[{\"English\":\"reach\",\"PhoneticSymbols\":\"\",\"Chinese\":\"达到\"},{\"English\":\"add\",\"PhoneticSymbols\":\"\",\"Chinese\":\"增加\"},{\"English\":\"refuse\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拒绝\"},{\"English\":\"change\",\"PhoneticSymbols\":\"\",\"Chinese\":\"变化\"},{\"English\":\"enough\",\"PhoneticSymbols\":\"\",\"Chinese\":\"充分地，足够地\"},{\"English\":\"strict\",\"PhoneticSymbols\":\"\",\"Chinese\":\"对……严格要求\"},{\"English\":\"crowded\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拥挤的\"},{\"English\":\"neighbor\",\"PhoneticSymbols\":\"\",\"Chinese\":\"邻居\"},{\"English\":\"reply\",\"PhoneticSymbols\":\"\",\"Chinese\":\"回答\"},{\"English\":\"care\",\"PhoneticSymbols\":\"\",\"Chinese\":\"关心，照顾\"},{\"English\":\"wonder\",\"PhoneticSymbols\":\"\",\"Chinese\":\"想知道\"},{\"English\":\"knock\",\"PhoneticSymbols\":\"\",\"Chinese\":\"敲\"}]},{\"Name\":\"第26期\",\"Words\":[{\"English\":\"wear\",\"PhoneticSymbols\":\"\",\"Chinese\":\"穿，戴\"},{\"English\":\"heavy\",\"PhoneticSymbols\":\"\",\"Chinese\":\"沉的，重的\"},{\"English\":\"happen\",\"PhoneticSymbols\":\"\",\"Chinese\":\"发生\"},{\"English\":\"upset\",\"PhoneticSymbols\":\"\",\"Chinese\":\"心烦的，苦恼的\"},{\"English\":\"competition\",\"PhoneticSymbols\":\"\",\"Chinese\":\"比赛\"},{\"English\":\"become\",\"PhoneticSymbols\":\"\",\"Chinese\":\"变得\"},{\"English\":\"environment\",\"PhoneticSymbols\":\"\",\"Chinese\":\"环境\"},{\"English\":\"turn\",\"PhoneticSymbols\":\"\",\"Chinese\":\"转向，翻\"},{\"English\":\"hear\",\"PhoneticSymbols\":\"\",\"Chinese\":\"听到；听说\"},{\"English\":\"possible\",\"PhoneticSymbols\":\"\",\"Chinese\":\"可能的\"},{\"English\":\"character\",\"PhoneticSymbols\":\"\",\"Chinese\":\"人物；符号；性格\"},{\"English\":\"hold\",\"PhoneticSymbols\":\"\",\"Chinese\":\"举办\"},{\"English\":\"invite\",\"PhoneticSymbols\":\"\",\"Chinese\":\"邀请\"},{\"English\":\"refuse\",\"PhoneticSymbols\":\"\",\"Chinese\":\"拒绝\"},{\"English\":\"agree\",\"PhoneticSymbols\":\"\",\"Chinese\":\"同意\"},{\"English\":\"borrow\",\"PhoneticSymbols\":\"\",\"Chinese\":\"借用\"}]}]");
     /***/
   },
 

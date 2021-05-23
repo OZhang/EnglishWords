@@ -11,8 +11,6 @@ export class GetWordsService {
   constructor(private http: HttpClient) { }
 
   public getJson(): Observable<any>{
-    return this.http.get(_72external);
-
-   // return this.http.get("../assets/json/72external.json");
+    return this.http.get("../assets/json/72external.json");
   }
 }
