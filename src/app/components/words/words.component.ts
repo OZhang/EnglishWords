@@ -1,6 +1,6 @@
 import { Component, OnInit, Input, Output, EventEmitter, ViewChild, ElementRef, AfterViewInit, OnChanges, SimpleChanges } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { SpeechService } from 'src/app/speech.service';
+import { SpeechService } from 'src/app/service/speech.service';
 
 @Component({
   selector: 'app-words',

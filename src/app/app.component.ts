@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { GetWordsService } from './service/get-words.service';
-import { SpeechService } from 'src/app/speech.service';
+import { SpeechService } from 'src/app/service/speech.service';
+import _72external from "../assets/json/72external.json";
 
 @Component({
   selector: 'app-root',
@@ -21,11 +22,13 @@ export class AppComponent implements OnInit {
   wrongWords = [];
   constructor(private getWordsService: GetWordsService, private speech: SpeechService) { }
   ngOnInit(): void {
-    this.getWordsService.getJson().subscribe(data => {
-      console.log(data);
-      this.allWords = data;
-      this.goToModule(0)
-    })
+    this.allWords = _72external;
+    this.goToModule(0);
+    // this.getWordsService.getJson().subscribe(data => {
+    //   console.log(data);
+    //   this.allWords = data;
+    //   this.goToModule(0)
+    // })
   }
 
   english: string = "";
