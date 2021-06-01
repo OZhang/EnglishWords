@@ -37,7 +37,7 @@ export class WordsComponent implements OnInit, OnChanges {
   changed(value: String) {
     console.log("changed.value = ",value)
     this.answerChangedEvent.emit(value.trim());
-    this.speak();
+    // this.speak();
 
   }
 

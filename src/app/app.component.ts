@@ -3,6 +3,8 @@ import { GetWordsService } from './service/get-words.service';
 import { SpeechService } from 'src/app/service/speech.service';
 import _72external from "../assets/json/72external.json";
 import M12 from "../assets/json/M12.json";
+import M7 from "../assets/json/7_1.json";
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -10,7 +12,7 @@ import M12 from "../assets/json/M12.json";
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'EnglishWords';
+  title = 'English Words';
   allWords: any;
   currentModuleIndex = 0;
   currentModule: any;
@@ -23,13 +25,12 @@ export class AppComponent implements OnInit {
   wrongWords = [];
   constructor(private getWordsService: GetWordsService, private speech: SpeechService) { }
   ngOnInit(): void {
-    this.allWords = M12;
+    let all: any = M12;
+    all = all.concat(M7);
+    all = all.concat(_72external);
+    this.allWords = all;
+    console.log(this.allWords);
     this.goToModule(0);
-    // this.getWordsService.getJson().subscribe(data => {
-    //   console.log(data);
-    //   this.allWords = data;
-    //   this.goToModule(0)
-    // })
   }
 
   english: string = "";
@@ -155,7 +156,6 @@ export class AppComponent implements OnInit {
     this.isCompleted = false;
     this.isDisabled = false;
     this.currentWords = this.shuffle(this.wrongWords);
-    // this.wrongWords;
 
     this.currentWords.forEach(word => {
       word['answer'] = "";
