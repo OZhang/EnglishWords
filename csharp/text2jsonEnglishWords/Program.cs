@@ -11,7 +11,7 @@ namespace text2jsonEnglishWords
   {
     static void Main(string[] args)
     {
-      var textFile = Resources._72external;
+      var textFile = Resources.M12;
       string[] stringSeparators = new string[] { "\r\n" };
       var lines = textFile.Split(stringSeparators, StringSplitOptions.None).ToList();
       var list = new List<Group>();
@@ -19,7 +19,7 @@ namespace text2jsonEnglishWords
       //lines.ForEach(l =>
       foreach(var line in lines)
       {
-        var word = line.Split('/');
+        var word = line.Split('\\');
         if (word.Length != 3)
           continue;
 
@@ -48,7 +48,7 @@ namespace text2jsonEnglishWords
 
       list.Add(group);
       var output = JsonConvert.SerializeObject(list);
-      File.WriteAllText(@"../../../../src/assets/json/72external.json", output);
+      File.WriteAllText(@"../../../../src/assets/json/M12.json", output);
     }
   }
 }

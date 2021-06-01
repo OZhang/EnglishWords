@@ -1,6 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { GetWordsService } from './service/get-words.service';
-import { SpeechService } from 'src/app/speech.service';
+import { SpeechService } from 'src/app/service/speech.service';
+import _72external from "../assets/json/72external.json";
+import M12 from "../assets/json/M12.json";
+import M7 from "../assets/json/7_1.json";
+import { analyzeAndValidateNgModules } from '@angular/compiler';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +12,7 @@ import { SpeechService } from 'src/app/speech.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'EnglishWords';
+  title = 'English Words';
   allWords: any;
   currentModuleIndex = 0;
   currentModule: any;
@@ -21,11 +25,12 @@ export class AppComponent implements OnInit {
   wrongWords = [];
   constructor(private getWordsService: GetWordsService, private speech: SpeechService) { }
   ngOnInit(): void {
-    this.getWordsService.getJson().subscribe(data => {
-      console.log(data);
-      this.allWords = data;
-      this.goToModule(0)
-    })
+    let all: any = M12;
+    all = all.concat(M7);
+    all = all.concat(_72external);
+    this.allWords = all;
+    console.log(this.allWords);
+    this.goToModule(0);
   }
 
   english: string = "";
@@ -62,7 +67,7 @@ export class AppComponent implements OnInit {
     this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
     this.chinese = this.currentWord['Chinese'];
     this.answer = this.currentWord['answer'];
-    this.speech.Speak(this.english);
+    // this.speech.Speak(this.english);
   }
   checkCompleted(): boolean {
     var count = 0;
@@ -135,10 +140,22 @@ export class AppComponent implements OnInit {
     this.wrongCount = wrong;
   }
 
+  shuffle(array) {
+    var currentIndex = array.length, temporaryValue, randomIndex;
+    while (0 !== currentIndex) {
+      randomIndex = Math.floor(Math.random() * currentIndex);
+      currentIndex -= 1;
+      temporaryValue = array[currentIndex];
+      array[currentIndex] = array[randomIndex];
+      array[randomIndex] = temporaryValue;
+    }
+    return array;
+  }
+
   reTest() {
     this.isCompleted = false;
     this.isDisabled = false;
-    this.currentWords = this.wrongWords;
+    this.currentWords = this.shuffle(this.wrongWords);
 
     this.currentWords.forEach(word => {
       word['answer'] = "";

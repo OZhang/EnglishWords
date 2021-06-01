@@ -1,6 +1,8 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
 import { HttpClient } from '@angular/common/http';
+import _72external from "../../assets/json/72external.json";
+
 @Injectable({
   providedIn: 'root'
 })
