@@ -890,8 +890,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           this.english = this.currentWord['English'];
           this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
           this.chinese = this.currentWord['Chinese'];
-          this.answer = this.currentWord['answer'];
-          this.speech.Speak(this.english);
+          this.answer = this.currentWord['answer']; // this.speech.Speak(this.english);
         }
       }, {
         key: "checkCompleted",
@@ -1226,8 +1225,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         }
       }, {
         key: "ngAfterViewInit",
-        value: function ngAfterViewInit() {
-          this.speak();
+        value: function ngAfterViewInit() {// this.speak();
         }
       }, {
         key: "changed",

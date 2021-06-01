@@ -423,7 +423,7 @@ let AppComponent = class AppComponent {
         this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
         this.chinese = this.currentWord['Chinese'];
         this.answer = this.currentWord['answer'];
-        this.speech.Speak(this.english);
+        // this.speech.Speak(this.english);
     }
     checkCompleted() {
         var count = 0;
@@ -641,7 +641,7 @@ let WordsComponent = class WordsComponent {
         });
     }
     ngAfterViewInit() {
-        this.speak();
+        // this.speak();
     }
     changed(value) {
         console.log("changed.value = ", value);
