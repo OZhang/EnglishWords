@@ -95,5 +95,29 @@ namespace text2jsonEnglishWords.Properties {
                 return ResourceManager.GetString("_72external", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   查找类似 M12/西方传统音乐/traditional western music
+        ///M12/奥地利首都/the capital of Austria
+        ///M12/流经/go through
+        ///M12/听着绝妙的嗓音/listen to the fantastic voice
+        ///M12/摇滚乐迷/a fan of rock music
+        ///M12/饶了我们吧(得了吧,让我们清静会吧)/give us a break
+        ///M12/太快/沉/much too fast/heavy
+        ///M12/太多工作/水/too much work/water
+        ///M12/不太了解/非常了解/know little/much about
+        ///M12/欧洲古典音乐的中心/the center of European classical music
+        ///M12/带…周游/take sb. around
+        ///M12/开音乐会/give concerts
+        ///M12/几百部动听的音乐作品/hundreds of wonderful pieces of music
+        ///M12/在…早年间/at an early age
+        ///M12/发表,出版/come out
+        ///M12 [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string M12 {
+            get {
+                return ResourceManager.GetString("M12", resourceCulture);
+            }
+        }
     }
 }

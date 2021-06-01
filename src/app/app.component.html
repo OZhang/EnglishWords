@@ -4,8 +4,8 @@
     <button mat-button (click)="nextModule()">下一模块</button>
 
     <h3>{{ currentWordIndex + 1 }} / {{ totalWords }}</h3>
-    <div [ngClass]="{'disabled': isDisabled}">
-        <app-words [English]="english" [PhoneticSymbols]="phoneticSymbols" [Chinese]="chinese" [Answer]="answer"
+    <div [ngClass]="{'disabled': isDisabled}" style="width: 100%;">
+        <app-words style="width: 100%;" [English]="english" [PhoneticSymbols]="phoneticSymbols" [Chinese]="chinese" [Answer]="answer"
             (answerChanged)="answerChanged($event)">
         </app-words>
         <button mat-button (click)="previousWord()">上一个</button>
