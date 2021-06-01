@@ -31,7 +31,7 @@ export class WordsComponent implements OnInit, OnChanges {
   }
 
   ngAfterViewInit(){
-    this.speak();
+    // this.speak();
   }
 
   changed(value: String) {

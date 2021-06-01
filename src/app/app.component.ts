@@ -67,7 +67,7 @@ export class AppComponent implements OnInit {
     this.phoneticSymbols = this.currentWord['PhoneticSymbols'];
     this.chinese = this.currentWord['Chinese'];
     this.answer = this.currentWord['answer'];
-    this.speech.Speak(this.english);
+    // this.speech.Speak(this.english);
   }
   checkCompleted(): boolean {
     var count = 0;
