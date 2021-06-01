@@ -3,7 +3,6 @@ import { GetWordsService } from './service/get-words.service';
 import { SpeechService } from 'src/app/service/speech.service';
 import _72external from "../assets/json/72external.json";
 import M12 from "../assets/json/M12.json";
-import M7_1 from "../assets/json/7_1.json";
 
 @Component({
   selector: 'app-root',
