@@ -1,0 +1,1692 @@
+[
+    {
+        "Name": "Module 1",
+        "Words": [
+            {
+                "English": "pair",
+                "PhoneticSymbols": "[pεə]",
+                "Chinese": "n.（相关的）两个人， 一对"
+            },
+            {
+                "English": "correct",
+                "PhoneticSymbols": "[kə'rekt]",
+                "Chinese": "v. 改正；纠正; adj. 正确的；对的"
+            },
+            {
+                "English": "spelling",
+                "PhoneticSymbols": "['speliŋ]",
+                "Chinese": "n. 拼写"
+            },
+            {
+                "English": "word",
+                "PhoneticSymbols": "[wə:d]",
+                "Chinese": "n. 词；单词；字"
+            },
+            {
+                "English": "practise",
+                "PhoneticSymbols": "['præktis]",
+                "Chinese": "v. 练习"
+            },
+            {
+                "English": "match",
+                "PhoneticSymbols": "[mætʃ]",
+                "Chinese": "v.找到与……相配之物，使相配；使成对"
+            },
+            {
+                "English": "meaning",
+                "PhoneticSymbols": "['mi:niŋ]",
+                "Chinese": "n. 意义；意思"
+            },
+            {
+                "English": "complete",
+                "PhoneticSymbols": "[kəm'pli:t]",
+                "Chinese": "v.把……填完整；使完全"
+            },
+            {
+                "English": "sentence",
+                "PhoneticSymbols": "['sentəns]",
+                "Chinese": "n. 句子"
+            },
+            {
+                "English": "dictionary",
+                "PhoneticSymbols": "['dikʃənəri]",
+                "Chinese": "n. 词典；字典"
+            },
+            {
+                "English": "grammar",
+                "PhoneticSymbols": "['ɡræmə]",
+                "Chinese": "n. 语法"
+            },
+            {
+                "English": "letter",
+                "PhoneticSymbols": "['letə]",
+                "Chinese": "n. 字母"
+            },
+            {
+                "English": "look up",
+                "PhoneticSymbols": "",
+                "Chinese": "查，查找"
+            },
+            {
+                "English": "mistake",
+                "PhoneticSymbols": "[mi'steik]",
+                "Chinese": "n. 错误；过错"
+            },
+            {
+                "English": "make a mistake",
+                "PhoneticSymbols": "",
+                "Chinese": "犯错误"
+            },
+            {
+                "English": "understand",
+                "PhoneticSymbols": "[,ʌndə'stænd]",
+                "Chinese": "v.（原型）理解；明白"
+            },
+            {
+                "English": "understood\t",
+                "PhoneticSymbols": "[,ʌndə'stud]",
+                "Chinese": "\t v.（过去式 ）理解；明白"
+            },
+            {
+                "English": "advice",
+                "PhoneticSymbols": "[əd'vais]",
+                "Chinese": "n. 建议；意见"
+            },
+            {
+                "English": "should",
+                "PhoneticSymbols": "[ʃud]",
+                "Chinese": "v. aux. 应该"
+            },
+            {
+                "English": "possible",
+                "PhoneticSymbols": "['pɔsəbl]",
+                "Chinese": "adj. 可能的"
+            },
+            {
+                "English": "write down",
+                "PhoneticSymbols": "",
+                "Chinese": "写下；记下"
+            },
+            {
+                "English": "notebook",
+                "PhoneticSymbols": "['nəutbuk]",
+                "Chinese": "n. 笔记本"
+            },
+            {
+                "English": "forget",
+                "PhoneticSymbols": "[fə'get]",
+                "Chinese": "v. （原型）忘，忘记"
+            },
+            {
+                "English": "forgot\t",
+                "PhoneticSymbols": "[fə'ɡɔt]",
+                "Chinese": "\t v. （过去式）忘，忘记"
+            },
+            {
+                "English": "pronounce",
+                "PhoneticSymbols": "[prəu'nauns]",
+                "Chinese": "v. 发……的音"
+            },
+            {
+                "English": "aloud",
+                "PhoneticSymbols": "[ə'laud]",
+                "Chinese": "adv. 大声地；出声地"
+            },
+            {
+                "English": "radio",
+                "PhoneticSymbols": "['reidiəu]",
+                "Chinese": "n.电台，广播"
+            },
+            {
+                "English": "pronunciation",
+                "PhoneticSymbols": "[prəu,nʌnsi'eiʃən]",
+                "Chinese": "n. 发音"
+            },
+            {
+                "English": "key",
+                "PhoneticSymbols": "[ki:]",
+                "Chinese": "adj. 关键性的，非常重要的"
+            },
+            {
+                "English": "main",
+                "PhoneticSymbols": "[mein]",
+                "Chinese": "adj. 主要的，最大的"
+            },
+            {
+                "English": "excellent",
+                "PhoneticSymbols": "['eksələnt]",
+                "Chinese": "adj. 极好的；极好的"
+            },
+            {
+                "English": "agree",
+                "PhoneticSymbols": "[ə'ɡri:]",
+                "Chinese": "v.赞同"
+            },
+            {
+                "English": "agree with sb.",
+                "PhoneticSymbols": "",
+                "Chinese": "同意某人"
+            },
+            {
+                "English": "vocabulary",
+                "PhoneticSymbols": "[vəu'kæbjuləri]",
+                "Chinese": "n. 词汇；词汇量"
+            },
+            {
+                "English": "ask for",
+                "PhoneticSymbols": "",
+                "Chinese": "请求（给予）"
+            },
+            {
+                "English": "improve",
+                "PhoneticSymbols": "[im'pru:v]",
+                "Chinese": "v. 改进，改善"
+            },
+            {
+                "English": "basic",
+                "PhoneticSymbols": "\t['beisik]",
+                "Chinese": "adj. 主要的；基础的\t"
+            },
+            {
+                "English": "time",
+                "PhoneticSymbols": "[taim]",
+                "Chinese": "n. 次；回"
+            },
+            {
+                "English": "advise",
+                "PhoneticSymbols": "[əd'vaiz]",
+                "Chinese": "v.向……提出意见； 建议；忠告"
+            },
+            {
+                "English": "shy",
+                "PhoneticSymbols": "[ʃai]",
+                "Chinese": "adj. 羞怯的；腼腆的"
+            },
+            {
+                "English": "conversation",
+                "PhoneticSymbols": "[,kɔnvə'seiʃən]",
+                "Chinese": "n. 谈话；交谈"
+            },
+            {
+                "English": "quickly",
+                "PhoneticSymbols": "['kwikli]",
+                "Chinese": "adv. 快地；迅速地"
+            },
+            {
+                "English": "natural",
+                "PhoneticSymbols": "['nætʃərəl]",
+                "Chinese": "adj. 合理的；合乎常情的"
+            },
+            {
+                "English": "suggest",
+                "PhoneticSymbols": "[sə'dʒest]",
+                "Chinese": "v. 建议，提议"
+            },
+            {
+                "English": "place",
+                "PhoneticSymbols": "[pleis]",
+                "Chinese": "v. 放置"
+            }
+        ]
+    },
+    {
+        "Name": "Module 2",
+        "Words": [
+            {
+                "English": "hill",
+                "PhoneticSymbols": "[hil]",
+                "Chinese": "n. 小山；小丘"
+            },
+            {
+                "English": "population",
+                "PhoneticSymbols": "[,pɔpju'leiʃən]",
+                "Chinese": "n.（某一地区）人口，全体居民"
+            },
+            {
+                "English": "wide",
+                "PhoneticSymbols": "[waid]",
+                "Chinese": "adj. 宽的，宽阔的"
+            },
+            {
+                "English": "million",
+                "PhoneticSymbols": "['miljən]",
+                "Chinese": "num.百万"
+            },
+            {
+                "English": "pretty",
+                "PhoneticSymbols": "['priti]",
+                "Chinese": "adv. 相当地，非常，很"
+            },
+            {
+                "English": "pretty good",
+                "PhoneticSymbols": "",
+                "Chinese": "相当好，很好"
+            },
+            {
+                "English": "than",
+                "PhoneticSymbols": "[ðæn, 弱ðən]",
+                "Chinese": "prep. 比"
+            },
+            {
+                "English": "get",
+                "PhoneticSymbols": "[ɡet]",
+                "Chinese": "v. 变成；成为"
+            },
+            {
+                "English": "north",
+                "PhoneticSymbols": "[nɔ:θ]",
+                "Chinese": "n. 北，北方；adj. 在北方的；朝北的"
+            },
+            {
+                "English": "south",
+                "PhoneticSymbols": "[sauθ, sauð]",
+                "Chinese": "n. 南方，南；adj. 在南方的，朝南的"
+            },
+            {
+                "English": "west",
+                "PhoneticSymbols": "[west]",
+                "Chinese": "n. 西；西方 adj. 在西方的；朝西的"
+            },
+            {
+                "English": "home town",
+                "PhoneticSymbols": "",
+                "Chinese": "故乡；家乡"
+            },
+            {
+                "English": "especially",
+                "PhoneticSymbols": "[i'speʃəli]",
+                "Chinese": "adv. 尤其"
+            },
+            {
+                "English": "be famous for",
+                "PhoneticSymbols": "",
+                "Chinese": "因……而闻名"
+            },
+            {
+                "English": "university",
+                "PhoneticSymbols": "[,ju:ni'və:səti]",
+                "Chinese": "n. 大学"
+            },
+            {
+                "English": "island",
+                "PhoneticSymbols": "['ailənd]",
+                "Chinese": "n. 岛；岛屿"
+            },
+            {
+                "English": "area",
+                "PhoneticSymbols": "['εəriə]",
+                "Chinese": "n. 地区，区域"
+            },
+            {
+                "English": "low",
+                "PhoneticSymbols": "[ləu]",
+                "Chinese": "adj. 矮的，低的"
+            },
+            {
+                "English": "mountain",
+                "PhoneticSymbols": "[`mauntin]",
+                "Chinese": "n. 山；山岳"
+            },
+            {
+                "English": "countryside",
+                "PhoneticSymbols": "['kʌntri,said]",
+                "Chinese": "n. 农村地区，乡下"
+            },
+            {
+                "English": "umbrella",
+                "PhoneticSymbols": "[ʌm'brelə]",
+                "Chinese": "n. 雨伞"
+            }
+        ]
+    },
+    {
+        "Name": "Module 3",
+        "Words": [
+            {
+                "English": "baseball",
+                "PhoneticSymbols": "['beisbɔ:l]",
+                "Chinese": "n. 棒球"
+            },
+            {
+                "English": "volleyball",
+                "PhoneticSymbols": "['vɔlibɔ:l]",
+                "Chinese": "n. 排球"
+            },
+            {
+                "English": "boring",
+                "PhoneticSymbols": "['bɔ:riŋ]",
+                "Chinese": "adj. 烦人的；无聊的"
+            },
+            {
+                "English": "exciting",
+                "PhoneticSymbols": "[ik'saitiŋ]",
+                "Chinese": "adj. 令人激动的；使人兴奋的"
+            },
+            {
+                "English": "relaxing",
+                "PhoneticSymbols": "[ri'læksiŋ]",
+                "Chinese": "adj. 令人愉悦的；使人轻松的"
+            },
+            {
+                "English": "score",
+                "PhoneticSymbols": "[skɔ:]",
+                "Chinese": "vi.（体育比赛中）得（分）"
+            },
+            {
+                "English": "already",
+                "PhoneticSymbols": "[ɔ:l'redi]",
+                "Chinese": "adv. 已经，早已"
+            },
+            {
+                "English": "matter",
+                "PhoneticSymbols": "['mætə]",
+                "Chinese": "n.问题；麻烦"
+            },
+            {
+                "English": "What`s the matter",
+                "PhoneticSymbols": "",
+                "Chinese": "怎么了？"
+            },
+            {
+                "English": "hurt",
+                "PhoneticSymbols": "[hə:t]",
+                "Chinese": "v. （使）受伤；（使）疼痛"
+            },
+            {
+                "English": "enjoyable",
+                "PhoneticSymbols": "[in'dʒɔiəbl]",
+                "Chinese": "adj.令人愉快的；有乐趣的"
+            },
+            {
+                "English": "Olympics",
+                "PhoneticSymbols": "[əu'limpiks]",
+                "Chinese": "n. 奥林匹克运动会"
+            },
+            {
+                "English": "stadium",
+                "PhoneticSymbols": "['steidiəm]",
+                "Chinese": "n. 体育场"
+            },
+            {
+                "English": "miss",
+                "PhoneticSymbols": "[mis]",
+                "Chinese": "v. 未击中；未达到"
+            },
+            {
+                "English": "mind",
+                "PhoneticSymbols": "[maind]",
+                "Chinese": "v. 介意，讨厌；反对"
+            },
+            {
+                "English": "plenty",
+                "PhoneticSymbols": "['plenti]",
+                "Chinese": "pron.大量；众多"
+            },
+            {
+                "English": "plenty of",
+                "PhoneticSymbols": "",
+                "Chinese": "大量；众多"
+            },
+            {
+                "English": "beat",
+                "PhoneticSymbols": "[bi:t]",
+                "Chinese": "v. 打败；战胜"
+            },
+            {
+                "English": "careless",
+                "PhoneticSymbols": "['kεəlis]",
+                "Chinese": "adj. 粗心的；疏忽的"
+            },
+            {
+                "English": "cheer…on",
+                "PhoneticSymbols": "",
+                "Chinese": "用欢呼声激励；为……加油"
+            },
+            {
+                "English": "coach",
+                "PhoneticSymbols": "[kəutʃ]",
+                "Chinese": "n. 教练 "
+            },
+            {
+                "English": "fan club\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t球迷（或影迷、歌迷）俱乐部"
+            },
+            {
+                "English": "against",
+                "PhoneticSymbols": "[ə'ɡenst]",
+                "Chinese": "prep. （在比赛或战斗中）对（某人或某事物）"
+            },
+            {
+                "English": "train",
+                "PhoneticSymbols": "[trein]",
+                "Chinese": "v. （体育）训练；操练"
+            },
+            {
+                "English": "practice",
+                "PhoneticSymbols": "['præktis]",
+                "Chinese": "n. 练习"
+            },
+            {
+                "English": "warm",
+                "PhoneticSymbols": "[wɔ:m]",
+                "Chinese": "v. 使暖和；使温暖"
+            },
+            {
+                "English": "warm up",
+                "PhoneticSymbols": "",
+                "Chinese": "热身；做准备活动"
+            },
+            {
+                "English": "usual",
+                "PhoneticSymbols": "['ju:ʒuəl]",
+                "Chinese": "adj. 通常的，平常的"
+            },
+            {
+                "English": "better",
+                "PhoneticSymbols": "[betə]",
+                "Chinese": "adv. 更好地；adj. 更好的"
+            },
+            {
+                "English": "after-school",
+                "PhoneticSymbols": "['æftəskʊl]",
+                "Chinese": " adj. 下午放学后的，课外的"
+            },
+            {
+                "English": "pleased",
+                "PhoneticSymbols": "[pli:zd]",
+                "Chinese": "adj. 开心的；满足的"
+            },
+            {
+                "English": "pass",
+                "PhoneticSymbols": "[pɑ:s, pæs]",
+                "Chinese": "v. 传送；传递"
+            },
+            {
+                "English": "pity",
+                "PhoneticSymbols": "['piti]",
+                "Chinese": "n.可惜；遗憾"
+            },
+            {
+                "English": "chance",
+                "PhoneticSymbols": "[tʃɑ:ns]",
+                "Chinese": "n. 可能性，机会"
+            },
+            {
+                "English": "loudly",
+                "PhoneticSymbols": "['laudli]",
+                "Chinese": "adv. 响亮地，大声地"
+            },
+            {
+                "English": "confident",
+                "PhoneticSymbols": "['kɔnfidənt]",
+                "Chinese": "adj. 自信的"
+            }
+        ]
+    },
+    {
+        "Name": "Module 4",
+        "Words": [
+            {
+                "English": "road",
+                "PhoneticSymbols": "[rəud]",
+                "Chinese": "n. 路，（尤指）公路"
+            },
+            {
+                "English": "accident",
+                "PhoneticSymbols": "['æksidənt]",
+                "Chinese": "n. 交通事故；意外事件"
+            },
+            {
+                "English": "except",
+                "PhoneticSymbols": "[ik'sept]",
+                "Chinese": "prep. 除……之外"
+            },
+            {
+                "English": "choice",
+                "PhoneticSymbols": "[tʃɔis]",
+                "Chinese": "n. 选择"
+            },
+            {
+                "English": "classmate",
+                "PhoneticSymbols": "['klɑ:smeit]",
+                "Chinese": "n. 同班同学 "
+            },
+            {
+                "English": "far",
+                "PhoneticSymbols": "[fɑ:]",
+                "Chinese": "adv. 远；遥远地；adj. 远的；遥远的"
+            },
+            {
+                "English": "far from ",
+                "PhoneticSymbols": "",
+                "Chinese": "远离"
+            },
+            {
+                "English": "close",
+                "PhoneticSymbols": "[kləuz]",
+                "Chinese": "adj.（距离上） 近点，接近的 adv.（距离上）接近地"
+            },
+            {
+                "English": "crowded",
+                "PhoneticSymbols": "['kraudid]",
+                "Chinese": "adj. 拥挤的；人数过多的"
+            },
+            {
+                "English": "all the time",
+                "PhoneticSymbols": "",
+                "Chinese": "一直；不断地"
+            },
+            {
+                "English": "journey",
+                "PhoneticSymbols": "['dʒə:ni]",
+                "Chinese": "n. 旅行；旅程"
+            },
+            {
+                "English": "book",
+                "PhoneticSymbols": "[buk]",
+                "Chinese": "v. 预订"
+            },
+            {
+                "English": "park",
+                "PhoneticSymbols": "[pɑ:k]",
+                "Chinese": "v. 停放（车）；泊（车）"
+            },
+            {
+                "English": "outside",
+                "PhoneticSymbols": "[,aut'said]",
+                "Chinese": "prep. 在…范围之外； adv. 在外面，朝户外；n. 外部；外面 adj. 外部的，外表的"
+            },
+            {
+                "English": "however",
+                "PhoneticSymbols": "[hau'evə]",
+                "Chinese": "adv. 然而；但是"
+            },
+            {
+                "English": "cost",
+                "PhoneticSymbols": "[kɔst]",
+                "Chinese": "v. 价钱为；花费; n. 价钱，成本，代价"
+            }
+        ]
+    },
+    {
+        "Name": "Module 5",
+        "Words": [
+            {
+                "English": "actress",
+                "PhoneticSymbols": "['æktris]",
+                "Chinese": "n. 女演员"
+            },
+            {
+                "English": "teahouse",
+                "PhoneticSymbols": "['ti:haus]",
+                "Chinese": "n. （尤指亚洲的）茶馆"
+            },
+            {
+                "English": "offer",
+                "PhoneticSymbols": "[ɔfə]",
+                "Chinese": "v.提议；提出"
+            },
+            {
+                "English": "end",
+                "PhoneticSymbols": "[end]",
+                "Chinese": "n. （时间的）最后一段；末尾v. 结束"
+            },
+            {
+                "English": "in the end",
+                "PhoneticSymbols": "",
+                "Chinese": "最后，终于"
+            },
+            {
+                "English": "no idea\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t 不知道"
+            },
+            {
+                "English": "act",
+                "PhoneticSymbols": "[ækt]",
+                "Chinese": "n. （戏剧，歌剧的）一幕"
+            },
+            {
+                "English": "show",
+                "PhoneticSymbols": "[ʃəu]",
+                "Chinese": "v. 显示；展示； n. 演出；表演"
+            },
+            {
+                "English": "common",
+                "PhoneticSymbols": "['kɔmən]",
+                "Chinese": "adj. 普通的；一般的"
+            },
+            {
+                "English": "twentieth",
+                "PhoneticSymbols": "['twentiiθ]",
+                "Chinese": "num. 第二十"
+            },
+            {
+                "English": "describe",
+                "PhoneticSymbols": "[di'skraib]",
+                "Chinese": "v. 描述，描写"
+            },
+            {
+                "English": "society",
+                "PhoneticSymbols": "[sə'saiəti]",
+                "Chinese": "n. 社会"
+            },
+            {
+                "English": "head teacher",
+                "PhoneticSymbols": "",
+                "Chinese": "校长"
+            },
+            {
+                "English": "college",
+                "PhoneticSymbols": "['kɔlidʒ]",
+                "Chinese": "n. 大学；学院"
+            },
+            {
+                "English": "novel",
+                "PhoneticSymbols": "['nɔvəl]",
+                "Chinese": "n. （长篇）小说"
+            },
+            {
+                "English": "name",
+                "PhoneticSymbols": "[neim]",
+                "Chinese": "v.给….取名；给….命名"
+            },
+            {
+                "English": "if",
+                "PhoneticSymbols": "[if]",
+                "Chinese": "conj. 如果；若"
+            },
+            {
+                "English": "magic",
+                "PhoneticSymbols": "['mædʒik]",
+                "Chinese": "adj. 魔术的；戏法的"
+            }
+        ]
+    },
+    {
+        "Name": "Module 6",
+        "Words": [
+            {
+                "English": "snake",
+                "PhoneticSymbols": "[sneik]",
+                "Chinese": "n. 蛇"
+            },
+            {
+                "English": "neck",
+                "PhoneticSymbols": "[nek]",
+                "Chinese": "n. 脖子；脖子"
+            },
+            {
+                "English": "thin",
+                "PhoneticSymbols": "[θin]",
+                "Chinese": "adj. 细长的；瘦的"
+            },
+            {
+                "English": "danger",
+                "PhoneticSymbols": "['deindʒə]",
+                "Chinese": "n. 危险；危害"
+            },
+            {
+                "English": "in danger",
+                "PhoneticSymbols": "",
+                "Chinese": "处于危险中"
+            },
+            {
+                "English": "at last",
+                "PhoneticSymbols": "",
+                "Chinese": "终于；最后"
+            },
+            {
+                "English": "interested",
+                "PhoneticSymbols": "['intristid]",
+                "Chinese": "adj. 关心的，感兴趣的"
+            },
+            {
+                "English": "allow",
+                "PhoneticSymbols": "[ə'lau]",
+                "Chinese": "v. 允许；准许"
+            },
+            {
+                "English": "think of",
+                "PhoneticSymbols": "",
+                "Chinese": "想到，想出"
+            },
+            {
+                "English": "protect",
+                "PhoneticSymbols": "[prəu'tekt]",
+                "Chinese": "vt. 保护，防卫"
+            },
+            {
+                "English": "wild",
+                "PhoneticSymbols": "[waild]",
+                "Chinese": "adj. 野生的； n.野生环境"
+            },
+            {
+                "English": "grow",
+                "PhoneticSymbols": "\t[ɡrəu]",
+                "Chinese": "v.  （逐渐）变得；生长 (原型)\t"
+            },
+            {
+                "English": "grew",
+                "PhoneticSymbols": "\t[ɡru:]",
+                "Chinese": "v.  （逐渐）变得；生长 （过去式）\t"
+            },
+            {
+                "English": "take away",
+                "PhoneticSymbols": "",
+                "Chinese": "夺去；拿走"
+            },
+            {
+                "English": "enough",
+                "PhoneticSymbols": "[i'nʌf]",
+                "Chinese": "adj. 足够的；充分的"
+            },
+            {
+                "English": "peace",
+                "PhoneticSymbols": "[pi:s]",
+                "Chinese": "n. 和平；太平"
+            },
+            {
+                "English": "in peace",
+                "PhoneticSymbols": "",
+                "Chinese": "和平地；平静地"
+            },
+            {
+                "English": "notice",
+                "PhoneticSymbols": "['nəutis]",
+                "Chinese": "n. 布告，告示"
+            },
+            {
+                "English": "look after",
+                "PhoneticSymbols": "",
+                "Chinese": "照顾；照管 "
+            },
+            {
+                "English": "raise",
+                "PhoneticSymbols": "[reiz]",
+                "Chinese": "v.筹集（钱款）；抚养；养育；"
+            },
+            {
+                "English": "research",
+                "PhoneticSymbols": "[ri'sə:tʃ]",
+                "Chinese": "n. 研究；探讨"
+            },
+            {
+                "English": "baby",
+                "PhoneticSymbols": "['beibi]",
+                "Chinese": "n. 婴儿，婴孩"
+            },
+            {
+                "English": "situation",
+                "PhoneticSymbols": "[,sitju'eiʃən]",
+                "Chinese": "n. 形势；情况"
+            },
+            {
+                "English": "scientist",
+                "PhoneticSymbols": "['saiəntist]",
+                "Chinese": "n. 科学家"
+            },
+            {
+                "English": "produce",
+                "PhoneticSymbols": "[prə'dju:s]",
+                "Chinese": "v. 生育；繁殖"
+            },
+            {
+                "English": "southwest",
+                "PhoneticSymbols": "[,sauθ'west]",
+                "Chinese": "n. 西南 adj. 西南的；朝西南的"
+            },
+            {
+                "English": "in order to",
+                "PhoneticSymbols": "",
+                "Chinese": "为了"
+            },
+            {
+                "English": "government",
+                "PhoneticSymbols": "['ɡʌvənmənt]",
+                "Chinese": "n. 政府"
+            },
+            {
+                "English": "set",
+                "PhoneticSymbols": "[set]",
+                "Chinese": "v.设置；设定"
+            },
+            {
+                "English": "set up",
+                "PhoneticSymbols": "",
+                "Chinese": "开办；设立；创办；建立"
+            },
+            {
+                "English": "nature",
+                "PhoneticSymbols": "['neitʃə]",
+                "Chinese": "n. 大自然；自然界"
+            },
+            {
+                "English": "nature park",
+                "PhoneticSymbols": "",
+                "Chinese": "自然公园"
+            },
+            {
+                "English": "develop",
+                "PhoneticSymbols": "[di'veləp]",
+                "Chinese": "v. 研制；制定"
+            },
+            {
+                "English": "feed",
+                "PhoneticSymbols": "[fi:d]",
+                "Chinese": "vt. （ 原型）喂养；饲养"
+            },
+            {
+                "English": "fed\t",
+                "PhoneticSymbols": "[fed]",
+                "Chinese": "\t vt. （ 过去式）喂养；饲养"
+            },
+            {
+                "English": "symbol",
+                "PhoneticSymbols": "['simbəl]",
+                "Chinese": "n. 象征；标志"
+            }
+        ]
+    },
+    {
+        "Name": "Module 7",
+        "Words": [
+            {
+                "English": "fall",
+                "PhoneticSymbols": "[fɔ:l]",
+                "Chinese": "v. 下落；跌落"
+            },
+            {
+                "English": "follow",
+                "PhoneticSymbols": "['fɔləu]",
+                "Chinese": "v. 跟随；紧跟"
+            },
+            {
+                "English": "hole",
+                "PhoneticSymbols": "[həul]",
+                "Chinese": "n. 洞，孔；穴"
+            },
+            {
+                "English": "rabbit",
+                "PhoneticSymbols": "['ræbit]",
+                "Chinese": "n. 兔，家兔"
+            },
+            {
+                "English": "ssh",
+                "PhoneticSymbols": "[ʃ]",
+                "Chinese": "int. 嘘 （示意某人不要说话）"
+            },
+            {
+                "English": "ground",
+                "PhoneticSymbols": "[ɡraund]",
+                "Chinese": "n. 地面"
+            },
+            {
+                "English": "tea party",
+                "PhoneticSymbols": "",
+                "Chinese": "茶会"
+            },
+            {
+                "English": "twice",
+                "PhoneticSymbols": "[twais]",
+                "Chinese": "adv. 两次；两倍"
+            },
+            {
+                "English": "once or twice",
+                "PhoneticSymbols": "",
+                "Chinese": "偶尔；一两次"
+            },
+            {
+                "English": "suddenly",
+                "PhoneticSymbols": "['sʌdnli]",
+                "Chinese": "adv. 突然地；出乎意料地"
+            },
+            {
+                "English": "pink",
+                "PhoneticSymbols": "[piŋk]",
+                "Chinese": "adj. 粉红色的 n. 粉红色"
+            },
+            {
+                "English": "pocket",
+                "PhoneticSymbols": "['pɔkit]",
+                "Chinese": "n. 衣袋；口袋"
+            },
+            {
+                "English": "field",
+                "PhoneticSymbols": "['fi:ld]",
+                "Chinese": "n. 牧场；田地"
+            },
+            {
+                "English": "think about",
+                "PhoneticSymbols": "",
+                "Chinese": "考虑"
+            },
+            {
+                "English": "deep",
+                "PhoneticSymbols": "[di:p]",
+                "Chinese": "adj.（从顶部向下） 深的"
+            },
+            {
+                "English": "while",
+                "PhoneticSymbols": "[hwail]",
+                "Chinese": "conj. 当……的时候"
+            },
+            {
+                "English": "land",
+                "PhoneticSymbols": "[lænd]",
+                "Chinese": "v. 降落（或挑落、跌落）到地面（或水面上）"
+            },
+            {
+                "English": "dry",
+                "PhoneticSymbols": "[drai]",
+                "Chinese": "adj. 干的；干燥的"
+            }
+        ]
+    },
+    {
+        "Name": "Module 8",
+        "Words": [
+            {
+                "English": "pale",
+                "PhoneticSymbols": "[peil]",
+                "Chinese": "adj. （肤色）苍白的"
+            },
+            {
+                "English": "appear",
+                "PhoneticSymbols": "[ə'piə]",
+                "Chinese": "v. 出现；显露"
+            },
+            {
+                "English": "round",
+                "PhoneticSymbols": "[raund]",
+                "Chinese": "prep. 转到（某物的）另一边"
+            },
+            {
+                "English": "corner",
+                "PhoneticSymbols": "['kɔ:nə]",
+                "Chinese": "n. 拐角，街角"
+            },
+            {
+                "English": "hit",
+                "PhoneticSymbols": "[hit]",
+                "Chinese": "vt. （使）碰撞"
+            },
+            {
+                "English": "glad",
+                "PhoneticSymbols": "[ɡlæd]",
+                "Chinese": "adj.高兴的；欢喜的"
+            },
+            {
+                "English": "in time",
+                "PhoneticSymbols": "",
+                "Chinese": "及时"
+            },
+            {
+                "English": "fall off…",
+                "PhoneticSymbols": "",
+                "Chinese": "从…跌落"
+            },
+            {
+                "English": "risk",
+                "PhoneticSymbols": "[risk]",
+                "Chinese": "n. 危险；风险"
+            },
+            {
+                "English": "attention",
+                "PhoneticSymbols": "[ə'tenʃən]",
+                "Chinese": "n. 注意力"
+            },
+            {
+                "English": "pay  attention ",
+                "PhoneticSymbols": "\t",
+                "Chinese": "注意；留心\t"
+            },
+            {
+                "English": "side",
+                "PhoneticSymbols": "[said]",
+                "Chinese": "n. （物体或形状的）侧面"
+            },
+            {
+                "English": "side by side",
+                "PhoneticSymbols": "",
+                "Chinese": "并排地；肩并肩地"
+            },
+            {
+                "English": "bite",
+                "PhoneticSymbols": "[bait]",
+                "Chinese": "v.（原型） 咬；叮"
+            },
+            {
+                "English": "bit\t",
+                "PhoneticSymbols": "[biti]",
+                "Chinese": "\t v.（过去式） 咬；叮"
+            },
+            {
+                "English": "climb",
+                "PhoneticSymbols": "[klaim]",
+                "Chinese": "v. 爬；攀爬"
+            },
+            {
+                "English": "hide",
+                "PhoneticSymbols": "[haid]",
+                "Chinese": "v.（原型）躲；躲藏"
+            },
+            {
+                "English": "hid\t",
+                "PhoneticSymbols": "[hid]",
+                "Chinese": "\t v.（过去式）躲；躲藏"
+            },
+            {
+                "English": "throw",
+                "PhoneticSymbols": "[θrəu]",
+                "Chinese": "v. 扔；掷"
+            },
+            {
+                "English": "fridge",
+                "PhoneticSymbols": "[fridʒ]",
+                "Chinese": "n. 冰箱"
+            },
+            {
+                "English": "pain",
+                "PhoneticSymbols": "[pein]",
+                "Chinese": "n. 痛；疼痛"
+            },
+            {
+                "English": "worse",
+                "PhoneticSymbols": "[wə:s]",
+                "Chinese": "adj. 更糟的；更坏的 adv. 更糟；更严重"
+            },
+            {
+                "English": "medicine",
+                "PhoneticSymbols": "['medisin]",
+                "Chinese": "n. 药；药物"
+            }
+        ]
+    },
+    {
+        "Name": "Module 9",
+        "Words": [
+            {
+                "English": "noise",
+                "PhoneticSymbols": "[nɔiz]",
+                "Chinese": "n. 噪音；杂音"
+            },
+            {
+                "English": "prepare",
+                "PhoneticSymbols": "[pri'pεə]",
+                "Chinese": "vt. 准备；预备"
+            },
+            {
+                "English": "notes",
+                "PhoneticSymbols": "[nəʊts]",
+                "Chinese": "n.(pl)笔记；随笔"
+            },
+            {
+                "English": "report",
+                "PhoneticSymbols": "[ri'pɔ:t]",
+                "Chinese": "n. 报告；汇报"
+            },
+            {
+                "English": "grow",
+                "PhoneticSymbols": "[ɡrəu]",
+                "Chinese": "v.( 原型) 增长；增大"
+            },
+            {
+                "English": "grew",
+                "PhoneticSymbols": "[ɡru:]",
+                "Chinese": "v.( 过去式) 增长；增大"
+            },
+            {
+                "English": "huge",
+                "PhoneticSymbols": "[hju:dʒ]",
+                "Chinese": "adj. 巨大的；庞大的                                                          "
+            },
+            {
+                "English": "cause",
+                "PhoneticSymbols": "[kɔ:z]",
+                "Chinese": "vt. 造成；引起"
+            },
+            {
+                "English": "increase",
+                "PhoneticSymbols": "['inkri:s]",
+                "Chinese": "n.增大；增长v.增大；增长"
+            },
+            {
+                "English": "birth",
+                "PhoneticSymbols": "[bɑ:θ]",
+                "Chinese": "n. 出生"
+            },
+            {
+                "English": "billion",
+                "PhoneticSymbols": "['biljən]",
+                "Chinese": "num. 十亿"
+            },
+            {
+                "English": "fifth",
+                "PhoneticSymbols": "[fifθ]",
+                "Chinese": "num. 第五；五分之一"
+            },
+            {
+                "English": "hand on",
+                "PhoneticSymbols": "",
+                "Chinese": "（口）稍等"
+            },
+            {
+                "English": "flat",
+                "PhoneticSymbols": "[flæt]",
+                "Chinese": "n. 套房；公寓"
+            },
+            {
+                "English": "rubbish",
+                "PhoneticSymbols": "['rʌbiʃ]",
+                "Chinese": "n. 垃圾，废弃物"
+            },
+            {
+                "English": "quiet",
+                "PhoneticSymbols": "['kwaiət]",
+                "Chinese": "adj. 安静的；寂静的"
+            },
+            {
+                "English": "local",
+                "PhoneticSymbols": "['ləukəl]",
+                "Chinese": "adj. 当地的；本地的"
+            },
+            {
+                "English": "pupil",
+                "PhoneticSymbols": "['pjupl]",
+                "Chinese": "n. 学生；（尤指）小学生"
+            },
+            {
+                "English": "pollution",
+                "PhoneticSymbols": "[pə:'lju:ʃən]",
+                "Chinese": "n. 污染"
+            },
+            {
+                "English": "public",
+                "PhoneticSymbols": "['pʌblik]",
+                "Chinese": "adj. 公众的；公共的"
+            },
+            {
+                "English": "service",
+                "PhoneticSymbols": "['sə:vis]",
+                "Chinese": "n. 公共服务，服务"
+            },
+            {
+                "English": "solve",
+                "PhoneticSymbols": "[sɔlv]",
+                "Chinese": "v.解决问题"
+            }
+        ]
+    },
+    {
+        "Name": "Module 10",
+        "Words": [
+            {
+                "English": "cloud",
+                "PhoneticSymbols": "[klaud]",
+                "Chinese": "n. 云；云雾"
+            },
+            {
+                "English": "shower",
+                "PhoneticSymbols": "['ʃauə]",
+                "Chinese": "v. 阵雨"
+            },
+            {
+                "English": "snow",
+                "PhoneticSymbols": "[snəu]",
+                "Chinese": "n. 雪；v.下雪"
+            },
+            {
+                "English": "storm",
+                "PhoneticSymbols": "[stɔ:m]",
+                "Chinese": "n. 暴风雨"
+            },
+            {
+                "English": "cloudy",
+                "PhoneticSymbols": "['klaudi]",
+                "Chinese": "adj. 多云的"
+            },
+            {
+                "English": "rainy",
+                "PhoneticSymbols": "['reini]",
+                "Chinese": "adj. 多雨的；下雨的"
+            },
+            {
+                "English": "snowy",
+                "PhoneticSymbols": "['snəui]",
+                "Chinese": "adj. 多雪的，下雪的"
+            },
+            {
+                "English": "sunny",
+                "PhoneticSymbols": "['sʌni]",
+                "Chinese": "adj. 晴朗的"
+            },
+            {
+                "English": "windy",
+                "PhoneticSymbols": "['windi]",
+                "Chinese": "adj. 多风的，刮大风的"
+            },
+            {
+                "English": "skate",
+                "PhoneticSymbols": "[skeit]",
+                "Chinese": "vi. 滑冰"
+            },
+            {
+                "English": "thick",
+                "PhoneticSymbols": "[θik]",
+                "Chinese": "adj. 厚的"
+            },
+            {
+                "English": "ice",
+                "PhoneticSymbols": "[ais]",
+                "Chinese": "n. 冰"
+            },
+            {
+                "English": "joke",
+                "PhoneticSymbols": "[dʒəuk]",
+                "Chinese": "vi. 说笑话；开玩笑 n. 笑话；玩笑"
+            },
+            {
+                "English": "might",
+                "PhoneticSymbols": "[mait]",
+                "Chinese": "v. aux.可能；也许"
+            },
+            {
+                "English": "temperature",
+                "PhoneticSymbols": "['tempəritʃə]",
+                "Chinese": "n.温度"
+            },
+            {
+                "English": "minus",
+                "PhoneticSymbols": "['mainəs]",
+                "Chinese": "adj. 负的；零下的"
+            },
+            {
+                "English": "degree",
+                "PhoneticSymbols": "[di'ɡri:]",
+                "Chinese": "n. 度；度数"
+            },
+            {
+                "English": "although",
+                "PhoneticSymbols": "[ɔ:l'ðəu]",
+                "Chinese": "conj. 然而，尽管"
+            },
+            {
+                "English": "wet",
+                "PhoneticSymbols": "[wet]",
+                "Chinese": "adj. 下雨的；湿的"
+            },
+            {
+                "English": "neither",
+                "PhoneticSymbols": "['naiðə, 'ni: ðə]",
+                "Chinese": "adv. （某人或某事物）也不"
+            },
+            {
+                "English": "terrible",
+                "PhoneticSymbols": "['terəbl]",
+                "Chinese": "adj. 使人烦恼的；可怕的"
+            },
+            {
+                "English": "wish",
+                "PhoneticSymbols": "[wiʃ]",
+                "Chinese": "v. 但愿；希望"
+            },
+            {
+                "English": "probably",
+                "PhoneticSymbols": "['prɔbəbli]",
+                "Chinese": "adv. 或许；可能"
+            },
+            {
+                "English": "come on",
+                "PhoneticSymbols": "",
+                "Chinese": "快点"
+            },
+            {
+                "English": "mile",
+                "PhoneticSymbols": "[mail]",
+                "Chinese": "n. 英里"
+            },
+            {
+                "English": "round",
+                "PhoneticSymbols": "[raund]",
+                "Chinese": "adv. 围绕地"
+            },
+            {
+                "English": "northwest",
+                "PhoneticSymbols": "[,nɔ:θ'west]",
+                "Chinese": "n. 西北; adj. 西北的；朝西北的"
+            },
+            {
+                "English": "southeast",
+                "PhoneticSymbols": "[,sauθ'i:st]",
+                "Chinese": "n. 东南; adj. 东南的；朝东南的"
+            },
+            {
+                "English": "from time to time",
+                "PhoneticSymbols": "",
+                "Chinese": "有时；间或"
+            }
+        ]
+    },
+    {
+        "Name": "Module 11",
+        "Words": [
+            {
+                "English": "cap",
+                "PhoneticSymbols": "[kæp]",
+                "Chinese": "n. （有檐的）帽子"
+            },
+            {
+                "English": "chess",
+                "PhoneticSymbols": "[tʃes]",
+                "Chinese": "n. 国际象棋"
+            },
+            {
+                "English": "set",
+                "PhoneticSymbols": "[sɛt]",
+                "Chinese": "n. （同类事物的）（一）套、副、组"
+            },
+            {
+                "English": "a chess set",
+                "PhoneticSymbols": "",
+                "Chinese": "一副国际象棋"
+            },
+            {
+                "English": "chopsticks",
+                "PhoneticSymbols": "['tʃɒpstɪks]",
+                "Chinese": "n. 筷子"
+            },
+            {
+                "English": "toy",
+                "PhoneticSymbols": "[tɔi]",
+                "Chinese": "n. 玩具"
+            },
+            {
+                "English": "video",
+                "PhoneticSymbols": "['vidiəu]",
+                "Chinese": "adj. （电子）视频的"
+            },
+            {
+                "English": "video game",
+                "PhoneticSymbols": "",
+                "Chinese": "电子游戏"
+            },
+            {
+                "English": "gift",
+                "PhoneticSymbols": "[ɡift]",
+                "Chinese": "n. 礼物"
+            },
+            {
+                "English": "surprise",
+                "PhoneticSymbols": "[sə'praiz]",
+                "Chinese": "n. 惊奇；意外之事。v. 使（某人）吃惊"
+            },
+            {
+                "English": "immediately",
+                "PhoneticSymbols": "[i'mi:diətli]",
+                "Chinese": "adv. 立刻，当即"
+            },
+            {
+                "English": "difference",
+                "PhoneticSymbols": "['difərəns]",
+                "Chinese": "n. 差别；差异"
+            },
+            {
+                "English": "accept",
+                "PhoneticSymbols": "[ək'sept]",
+                "Chinese": "v. 收受；接受"
+            },
+            {
+                "English": "tradition",
+                "PhoneticSymbols": "[trə'diʃən]",
+                "Chinese": "n. 传统习俗"
+            },
+            {
+                "English": "example",
+                "PhoneticSymbols": "[iɡ'zɑ:mpl]",
+                "Chinese": "n. 例子；实例"
+            },
+            {
+                "English": "for example",
+                "PhoneticSymbols": "",
+                "Chinese": "例如"
+            },
+            {
+                "English": "must",
+                "PhoneticSymbols": "[mʌst, 弱məst]",
+                "Chinese": "v. aux. 必须；应该"
+            },
+            {
+                "English": "month",
+                "PhoneticSymbols": "[mʌnθ]",
+                "Chinese": "n. 月；月份"
+            },
+            {
+                "English": "serious",
+                "PhoneticSymbols": "['siəriəs]",
+                "Chinese": "adj. 认真严肃的；不开玩笑的"
+            },
+            {
+                "English": "taste",
+                "PhoneticSymbols": "[teist]",
+                "Chinese": "v. 有……的味道；n. 味道；滋味"
+            },
+            {
+                "English": "experience",
+                "PhoneticSymbols": "[ik'spiəriəns]",
+                "Chinese": "n. 经验；经历"
+            },
+            {
+                "English": "stay",
+                "PhoneticSymbols": "[stei]",
+                "Chinese": "n. 逗留；停留"
+            },
+            {
+                "English": "someone",
+                "PhoneticSymbols": "['sʌmwʌn]",
+                "Chinese": "pron. 某人；有人"
+            },
+            {
+                "English": "for  the  first  time\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t 首次；初次"
+            },
+            {
+                "English": "sandwich",
+                "PhoneticSymbols": "['sænwidʒ]",
+                "Chinese": "n. 三明治；夹心面包"
+            },
+            {
+                "English": "chip",
+                "PhoneticSymbols": "[tʃip]",
+                "Chinese": "n. 炸土豆条；炸薯条"
+            },
+            {
+                "English": "fish and chips",
+                "PhoneticSymbols": "",
+                "Chinese": "炸鱼加炸薯条"
+            },
+            {
+                "English": "onto",
+                "PhoneticSymbols": "['ɔntu]",
+                "Chinese": "prep. 在…之上；向……之上"
+            },
+            {
+                "English": "gentleman",
+                "PhoneticSymbols": "['dʒentlmən]",
+                "Chinese": "n . 先生；男士"
+            },
+            {
+                "English": "shoulder",
+                "PhoneticSymbols": "['ʃəuldə]",
+                "Chinese": "n. 肩，肩膀 "
+            }
+        ]
+    },
+    {
+        "Name": "Module 12",
+        "Words": [
+            {
+                "English": "broken",
+                "PhoneticSymbols": "['brəukən]",
+                "Chinese": "adj. 破碎的"
+            },
+            {
+                "English": "glass",
+                "PhoneticSymbols": "[ɡlɑ:s]",
+                "Chinese": "n.玻璃"
+            },
+            {
+                "English": "stairs",
+                "PhoneticSymbols": "[steəz]",
+                "Chinese": "n. 楼梯；梯级（stair的复数）"
+            },
+            {
+                "English": "aid",
+                "PhoneticSymbols": "[eid]",
+                "Chinese": "n. 救助；帮助"
+            },
+            {
+                "English": "first aid",
+                "PhoneticSymbols": "",
+                "Chinese": "急救"
+            },
+            {
+                "English": "medical",
+                "PhoneticSymbols": "['medikəl]",
+                "Chinese": "adj. 医学的；医疗的"
+            },
+            {
+                "English": "imagine",
+                "PhoneticSymbols": "[i'mædʒin]",
+                "Chinese": "v. 想像；设想"
+            },
+            {
+                "English": "bottom",
+                "PhoneticSymbols": "['bɔtəm]",
+                "Chinese": "n. 底部；下端"
+            },
+            {
+                "English": "at the bottom of\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t在……的底部"
+            },
+            {
+                "English": "wrong",
+                "PhoneticSymbols": "[rɔŋ]",
+                "Chinese": "adj. 有毛病的；错误的 adv. 不正确地；错误地"
+            },
+            {
+                "English": "What`s wrong with\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t  ….怎么了？"
+            },
+            {
+                "English": "trouble",
+                "PhoneticSymbols": "['trʌbl]",
+                "Chinese": "n. 问题；烦恼；困难"
+            },
+            {
+                "English": "lift",
+                "PhoneticSymbols": "[lift]",
+                "Chinese": "v. 举起；抬起；提起 n. 电梯"
+            },
+            {
+                "English": "lift up",
+                "PhoneticSymbols": "",
+                "Chinese": "抬起；提起"
+            },
+            {
+                "English": "harmful",
+                "PhoneticSymbols": "['hɑ:mful]",
+                "Chinese": "adj. 有害的"
+            },
+            {
+                "English": "drop",
+                "PhoneticSymbols": "[drɔp]",
+                "Chinese": "vt. 使落下；投下"
+            },
+            {
+                "English": "training",
+                "PhoneticSymbols": "['treiniŋ]",
+                "Chinese": "n. 训练；培训"
+            },
+            {
+                "English": "make sure",
+                "PhoneticSymbols": "",
+                "Chinese": "确保；确认"
+            },
+            {
+                "English": "cover",
+                "PhoneticSymbols": "['kʌvə]",
+                "Chinese": "v. 盖；盖上"
+            },
+            {
+                "English": "earthquake",
+                "PhoneticSymbols": "['ə:θkweik]",
+                "Chinese": "n. 地震"
+            },
+            {
+                "English": "warn",
+                "PhoneticSymbols": "[wɔ:n]",
+                "Chinese": "v. 警告，告诫"
+            },
+            {
+                "English": "inside",
+                "PhoneticSymbols": "['in.said]",
+                "Chinese": "n. 内部；里面；adv. 在里面；向室内prep. 在……里面 adj. 里面的；内部的"
+            },
+            {
+                "English": "under",
+                "PhoneticSymbols": "['ʌndə]",
+                "Chinese": "prep. 在……正下方；在……下面"
+            },
+            {
+                "English": "window",
+                "PhoneticSymbols": "['windəu]",
+                "Chinese": "n. 窗；窗户"
+            },
+            {
+                "English": "keep",
+                "PhoneticSymbols": "[ki:p]",
+                "Chinese": "v.（原型） 保持；留在"
+            },
+            {
+                "English": "kept",
+                "PhoneticSymbols": "[kept]",
+                "Chinese": "v.（过去式） 保持；留在"
+            },
+            {
+                "English": "clear",
+                "PhoneticSymbols": "[kliə]",
+                "Chinese": "adj. 不和……接触的；不挨……太近的；v. 清除；清理；移走"
+            },
+            {
+                "English": "keep clear of\t",
+                "PhoneticSymbols": "",
+                "Chinese": "\t不和……接触"
+            },
+            {
+                "English": "calm",
+                "PhoneticSymbols": "[kɑ:m]",
+                "Chinese": "adj. 镇静的，沉着的"
+            },
+            {
+                "English": "brave",
+                "PhoneticSymbols": "[breiv]",
+                "Chinese": "adj. 勇敢的；无畏的"
+            },
+            {
+                "English": "helpful",
+                "PhoneticSymbols": "['helpful]",
+                "Chinese": "adj. 有用的；提供帮助的"
+            },
+            {
+                "English": "power",
+                "PhoneticSymbols": "[pauə]",
+                "Chinese": "n. 电；电力"
+            }
+        ]
+    }
+]
