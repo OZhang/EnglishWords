@@ -121,4 +121,7 @@
   <data name="_72external" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\72external.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>
+  <data name="_8_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8_1.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
+  </data>
 </root>

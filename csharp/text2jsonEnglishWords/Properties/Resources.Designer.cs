@@ -95,5 +95,29 @@ namespace text2jsonEnglishWords.Properties {
                 return ResourceManager.GetString("_72external", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   查找类似 Module 1  / 	/	
+        ///pair / [pεə]	/	 n.（相关的）两个人， 一对  
+        ///correct / [kə&apos;rekt]	/	 v. 改正；纠正; adj. 正确的；对的 
+        ///spelling / [&apos;speliŋ]	/	 n. 拼写 
+        ///word / [wə:d]	/	 n. 词；单词；字 
+        ///practise / [&apos;præktis]	/	 v. 练习  
+        ///match / [mætʃ]	/	 v.找到与……相配之物，使相配；使成对 
+        ///meaning / [&apos;mi:niŋ]	/	  n. 意义；意思  
+        ///complete / [kəm&apos;pli:t]	/	  v.把……填完整；使完全 
+        ///sentence / [&apos;sentəns]	/	  n. 句子 
+        ///dictionary / [&apos;dikʃənəri]	/	 n. 词典；字典 
+        ///grammar / [&apos;ɡræmə]	/	 n. 语法 
+        ///letter / [&apos;letə]	/	 n. 字母 
+        ///look up  / 	/	查，查找  
+        ///mistake / [mi&apos;steik]	/	 n. 错误；过错 
+        ///make a mista [字符串的其余部分被截断]&quot;; 的本地化字符串。
+        /// </summary>
+        internal static string _8_1 {
+            get {
+                return ResourceManager.GetString("_8_1", resourceCulture);
+            }
+        }
     }
 }

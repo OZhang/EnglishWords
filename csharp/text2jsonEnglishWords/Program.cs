@@ -11,7 +11,7 @@ namespace text2jsonEnglishWords
   {
     static void Main(string[] args)
     {
-      var textFile = Resources._72external;
+      var textFile = Resources._8_1;
       string[] stringSeparators = new string[] { "\r\n" };
       var lines = textFile.Split(stringSeparators, StringSplitOptions.None).ToList();
       var list = new List<Group>();
@@ -20,7 +20,7 @@ namespace text2jsonEnglishWords
       foreach(var line in lines)
       {
         var word = line.Split('/');
-        if (word.Length != 3)
+        if (word.Length != 4)
           continue;
 
         if (group == null)
@@ -39,16 +39,16 @@ namespace text2jsonEnglishWords
 
         var newWord = new Word()
         {
-          Chinese = word[1],
-          English = word[2],
-          PhoneticSymbols = string.Empty
+          Chinese = word[2],
+          English = word[1],
+          PhoneticSymbols = word[3]
         };
         group.WordList.Add(newWord);
       }
 
       list.Add(group);
       var output = JsonConvert.SerializeObject(list);
-      File.WriteAllText(@"../../../../src/assets/json/72external.json", output);
+      File.WriteAllText(@"../../../../src/assets/json/8_1.json", output);
     }
   }
 }
