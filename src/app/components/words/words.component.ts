@@ -8,7 +8,7 @@ import { SpeechService } from 'src/app/speech.service';
   styleUrls: ['./words.component.scss']
 })
 export class WordsComponent implements OnInit, OnChanges {
-  @ViewChild('myInput', { static: false }) input: ElementRef;
+  @ViewChild('myInput') input: ElementRef;
 
   @Input() English: string;
   @Input() PhoneticSymbols: string;
