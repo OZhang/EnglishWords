@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "1e8b9a80-5667-4225-bafb-daa0e143775a": {
+      "ProjectGuid": "1e8b9a80-5667-4225-bafb-daa0e143775a",
+      "DisplayName": "text2jsonEnglishWords",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
