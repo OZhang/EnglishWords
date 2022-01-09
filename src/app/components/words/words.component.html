@@ -6,7 +6,8 @@
     </button>
     <mat-form-field>
         <input matInput #myInput [(ngModel)]="answerInput" autocomplete="off"
-         (change)="changed($event.target.value)" (keydown.enter)="goNext()"
+         (change)="changed($event.target.value)" (keydown.enter)="goNext($event.target.value)"
           autofocus>
+          <!-- (keydown.enter)="goNext($event.target.value)" -->
     </mat-form-field>
 </div>

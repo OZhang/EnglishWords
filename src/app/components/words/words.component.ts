@@ -45,7 +45,8 @@ export class WordsComponent implements OnInit, OnChanges {
     this.speech.Speak(this.English);
   }
 
-  goNext(){
+  goNext(value: String){
+    this.changed(value);
     console.log("enter press");
     this.goNextEvent.emit();
   }
