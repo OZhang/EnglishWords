@@ -5,6 +5,8 @@
         <mat-icon aria-hidden="false" aria-label="Example home icon">record_voice_over</mat-icon>
     </button>
     <mat-form-field>
-        <input matInput #myInput [(ngModel)]="answerInput" autocomplete="off" (change)="changed($event.target.value)" autofocus>
+        <input matInput #myInput [(ngModel)]="answerInput" autocomplete="off"
+         (change)="changed($event.target.value)" (keydown.enter)="goNext()"
+          autofocus>
     </mat-form-field>
 </div>

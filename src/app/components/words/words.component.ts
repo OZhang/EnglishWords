@@ -15,6 +15,7 @@ export class WordsComponent implements OnInit, OnChanges {
   @Input() Chinese: string;
   @Input() Answer: string;
   @Output('answerChanged') answerChangedEvent = new EventEmitter<any>()
+  @Output('nextWord') goNextEvent = new EventEmitter<any>()
   answerInput: string = "";
 
   wordFrom: FormGroup;
@@ -38,10 +39,14 @@ export class WordsComponent implements OnInit, OnChanges {
     console.log("changed.value = ",value)
     this.answerChangedEvent.emit(value.trim());
     this.speak();
-
   }
 
   speak(){
     this.speech.Speak(this.English);
+  }
+
+  goNext(){
+    console.log("enter press");
+    this.goNextEvent.emit();
   }
 }

@@ -75,5 +75,8 @@
   <ItemGroup>
     <None Include="Resources\8_1.txt" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8_2.txt" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

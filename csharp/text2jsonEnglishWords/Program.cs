@@ -1,18 +1,18 @@
-using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using Newtonsoft.Json;
 using text2jsonEnglishWords.Properties;
 
 namespace text2jsonEnglishWords
 {
   class Program
   {
-    static void Main(string[] args)
+    static void Main()
     {
-      var textFile = Resources._8_1;
-      string[] stringSeparators = new string[] { "\r\n" };
+      var textFile = Resources._8_2;
+      string[] stringSeparators = { "\r\n" };
       var lines = textFile.Split(stringSeparators, StringSplitOptions.None).ToList();
       var list = new List<Group>();
       Group group = null;
@@ -37,7 +37,7 @@ namespace text2jsonEnglishWords
           group = new Group();
         }
 
-        var newWord = new Word()
+        var newWord = new Word
         {
           Chinese = word[2],
           English = word[1],
@@ -48,7 +48,7 @@ namespace text2jsonEnglishWords
 
       list.Add(group);
       var output = JsonConvert.SerializeObject(list);
-      File.WriteAllText(@"../../../../src/assets/json/8_1.json", output);
+      File.WriteAllText(@"../../../../src/assets/json/8_2.json", output);
     }
   }
 }

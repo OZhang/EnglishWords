@@ -44,6 +44,7 @@ export class AppComponent implements OnInit {
   }
 
   nextWord() {
+    console.log(" next word")
     this.currentWordIndex += 1;
     if (this.currentWordIndex >= this.currentWords.length) {
       this.currentWordIndex = this.currentWords.length - 1;
